@@ -1,0 +1,34 @@
+{
+  "purpose": "engineering_demo_calibration",
+  "inferenceLocation": "LinQ CPU",
+  "trainingWeightsChanged": false,
+  "accuracyBenchmark": false,
+  "notes": [
+    "Small manually inspected demo frame set; not held-out precision/recall evaluation.",
+    "Phone model unchanged, confidence 0.45; person crops improve a visually correct office phone box from 0.329 to 0.636.",
+    "RF-DETR CigDet full-frame confidence 0.85 selected conservatively after inspecting real and false candidates. Per-person RF-DETR crops increased false candidates and are disabled for this model.",
+    "Person confidence 0.35 excludes a spurious 0.251 head box in a four-person scene; it does not guarantee perfect person counts."
+  ],
+  "cigaretteFullFrameComparisons": [
+    {
+      "frame": "3252019.jpg",
+      "imageSHA256": "b0ab37a5283a398a4bb3be79ef61cc0a1928bac9b1c824ecc02f6f320d49f77e",
+      "maximumScore": 0.6696121692657471
+    },
+    {
+      "frame": "7271829.jpg",
+      "imageSHA256": "7426256836e805236b9c364d67488d61699d54e189483ec15cb4bf26fe06fcc2",
+      "maximumScore": 0.8979524374008179
+    },
+    {
+      "frame": "9352614.jpg",
+      "imageSHA256": "c04a565941520d30ca5a3a6c3320f7c233472211e9709baf738d59b8e1474b7e",
+      "maximumScore": 0.3849629759788513
+    }
+  ],
+  "limits": [
+    "Training overlap of stock examples is unknown.",
+    "Partial occlusions, tiny objects and ambiguous hand-held objects can still cause missed or false boxes.",
+    "Object presence is separated from action review and operator verdict."
+  ]
+}

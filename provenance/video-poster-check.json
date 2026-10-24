@@ -1,0 +1,18 @@
+{
+  "before": {
+    "currentTime": 0,
+    "poster": "/media/37c40c81a84347e7bbeb4cce78fb8ebc/user_camera_02.jpg",
+    "rawVideoHasAnnotatedPoster": true,
+    "readyState": 4,
+    "rendered": "false",
+    "src": "/input/37c40c81a84347e7bbeb4cce78fb8ebc/camera_02.mp4"
+  },
+  "after": {
+    "currentTime": 0,
+    "poster": "",
+    "rawVideoHasAnnotatedPoster": false,
+    "readyState": 4,
+    "rendered": "false",
+    "src": "/input/37c40c81a84347e7bbeb4cce78fb8ebc/camera_02.mp4"
+  }
+}

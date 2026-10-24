@@ -1,0 +1,10 @@
+{
+  "protocol": "linq_vlm_frames_v1",
+  "url_env": "VLM_HTTP_URL",
+  "token_env": "VLM_HTTP_TOKEN",
+  "auth_required": true,
+  "timeout_seconds": 180,
+  "max_frames": 16,
+  "max_frame_bytes": 10000000,
+  "max_response_bytes": 2000000
+}

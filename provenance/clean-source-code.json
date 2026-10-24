@@ -1,0 +1,9 @@
+{
+  "allPythonSourceHashesMatch": true,
+  "checkedPythonFiles": 54,
+  "scope": "Historical source-copy check before publication cleanup. Current runtime verification is recorded in publication-runtime-validation.json and publication-remote-source-verification.json.",
+  "remoteAllowlistSourceAndAssetsMatch": true,
+  "checkedRemoteAllowlistFiles": 59,
+  "frontendPosterFixVerifiedAfterNeuralRuns": true,
+  "historicalSourceRevision": "ff002536b147ea80b460536f007fbaac63180cbf"
+}

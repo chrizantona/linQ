@@ -1,0 +1,7 @@
+fastapi==0.136.3
+uvicorn==0.48.0
+requests==2.32.5
+websocket-client==1.9.0
+python-multipart==0.0.32
+numpy==2.5.1
+Pillow==12.3.0

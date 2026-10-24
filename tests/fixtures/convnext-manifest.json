@@ -1,0 +1,115 @@
+{
+  "heads": {
+    "synthsite": {
+      "path": "heads/synthsite.json",
+      "frames": 3,
+      "classes": [
+        "safe",
+        "unsafe"
+      ],
+      "task_spec": {
+        "task_id": "synthsite_suspended_load",
+        "scope": "05",
+        "label_semantics": "event",
+        "labels": [
+          "safe",
+          "unsafe"
+        ],
+        "unsafe_label": "unsafe",
+        "instruction": "Is a worker within the fall zone beneath a genuinely suspended load? Return unsafe if yes, otherwise safe when sufficient evidence is visible. A nearby worker or a load resting on the ground alone is not unsafe for this specific event. Return null when unobservable."
+      }
+    },
+    "safelift": {
+      "path": "heads/safelift.json",
+      "frames": 2,
+      "classes": [
+        "lift",
+        "lower"
+      ],
+      "task_spec": {
+        "task_id": "safelift_direction",
+        "scope": "08",
+        "label_semantics": "action",
+        "labels": [
+          "lift",
+          "lower"
+        ],
+        "instruction": "Classify upward lifting versus downward lowering of the visible load using the ordered frames. Return lift for upward movement, lower for downward movement, or null if direction is not visible. This task does not assess whether lifting is safe.",
+        "event_task": false
+      }
+    },
+    "hmdb51_v2": {
+      "path": "heads/hmdb51_v2.json",
+      "frames": 3,
+      "classes": [
+        "run",
+        "walk"
+      ],
+      "task_spec": {
+        "task_id": "hmdb51",
+        "scope": "01",
+        "label_semantics": "action",
+        "labels": [
+          "run",
+          "walk"
+        ],
+        "instruction": "Is the person running or walking? Classify only the visible movement as run or walk, or null if unobservable. This does not assess industrial safety."
+      }
+    },
+    "physicalai_v2": {
+      "path": "heads/physicalai_v2.json",
+      "frames": 3,
+      "classes": [
+        "near_miss",
+        "normal"
+      ],
+      "task_spec": {
+        "task_id": "physicalai_near_miss",
+        "scope": "02",
+        "label_semantics": "event",
+        "labels": [
+          "normal",
+          "near_miss"
+        ],
+        "unsafe_label": "near_miss",
+        "instruction": "Does this clip show a forklift-person near miss? Return near_miss or normal, or null if unobservable. Normal proximity or routine forklift operation alone does not establish a near miss."
+      }
+    },
+    "omnifall_v2": {
+      "path": "heads/omnifall_v2.json",
+      "frames": 3,
+      "classes": [
+        false,
+        true
+      ],
+      "task_spec": {
+        "task_id": "fall_or_fallen_present",
+        "scope": "07",
+        "label_semantics": "action_state",
+        "labels": [
+          false,
+          true
+        ],
+        "instruction": "Do the ordered sampled frames show a person falling or already fallen? Return true for falling/fallen, false for visible non-fall actions including intentional lying down or lying alone, or null if unobservable. Do not infer consciousness, injury or an industrial violation. This is a clip-level action-state presence proxy derived from temporal fall/fallen GT, not a medical diagnosis."
+      }
+    },
+    "harness_author": {
+      "path": "heads/harness_author.json",
+      "frames": 1,
+      "classes": [
+        false,
+        true
+      ],
+      "task_spec": {
+        "task_id": "harness_author_presence",
+        "scope": "06",
+        "label_semantics": "component",
+        "labels": [
+          false,
+          true
+        ],
+        "instruction": "Classify image-level presence of at least one visible fall-protection safety harness. Does not assess height, anchoring or all-person compliance."
+      }
+    }
+  }
+}

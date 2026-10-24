@@ -1,0 +1,55 @@
+{
+  "verifiedAtUTC": "2026-10-25T00:45:17.102389+00:00",
+  "finalJobIds": {
+    "book_negative_control": "20e951749f804c6f96f15088f6383c33",
+    "drinks_negative_control": "a29f340a06d24081b2404e1d39521b25",
+    "office_phone_with_zone": "be456270063e4a338ffaaf199d20e213",
+    "smoking_group_action_rule": "290a36dd8e1d4d19adc713940c874111",
+    "two_cameras_phone_presence": "37c40c81a84347e7bbeb4cce78fb8ebc",
+    "ordered_image_set_phone_presence": "3c04d241ab9a4ded91fa894f09fb0a56",
+    "fall_head_regression": "6ba1408a8f5b404f83d463a88c6151de",
+    "phone_group_action_rule": "83fe79aaccd840fc91ba2b180c294260"
+  },
+  "negativeControlTargetDetections": {
+    "book_phone": 0,
+    "drinks_cigarette": 0
+  },
+  "positiveTargetDetections": {
+    "office_phone": 6,
+    "smoking_cigarette": 4
+  },
+  "oneObjectRuleEpisodePerContinuousPositiveClip": true,
+  "savedZoneSnapshottedAndTriggered": true,
+  "cameraSpecificFrameIsolation": true,
+  "twoCameraCVOnlyEventsRetained": true,
+  "imageSetOriginalHashesAndIndicesVerified": true,
+  "sceneReviewDisabledWithoutAnalysisError": true,
+  "geometricZoneSkipsLanguageModel": true,
+  "freshSourceCopyPositiveJobs": 4,
+  "progressiveCandidatePublication": [
+    {
+      "jobId": "be456270063e4a338ffaaf199d20e213",
+      "observedAtUTC": "2026-10-25T00:38:58.686151+00:00",
+      "status": "running",
+      "actualFramesVisible": 5,
+      "candidateEventsInJournal": 1
+    },
+    {
+      "jobId": "83fe79aaccd840fc91ba2b180c294260",
+      "observedAtUTC": "2026-10-25T00:40:04.693224+00:00",
+      "status": "running",
+      "actualFramesVisible": 2,
+      "candidateEventsInJournal": 1
+    }
+  ],
+  "eventFiltersVerified": [
+    "type",
+    "camera",
+    "zone",
+    "start_s",
+    "end_s"
+  ],
+  "invalidFilterInputsRejected": true,
+  "operatorReviewsCreatedByThisCheck": 0,
+  "accuracyBenchmarkPerformed": false
+}

@@ -1,0 +1,121 @@
+{
+  "root": ".",
+  "buffer": {
+    "T": 3,
+    "window_s": 4
+  },
+  "tracker": {
+    "confidence": 0.35,
+    "iou": 0.15,
+    "max_age_s": 1.0
+  },
+  "vlm": {
+    "config": "deploy/vlm_host.example.json",
+    "scope": "05",
+    "prompt": "Inspect only these ordered past camera frames through the trigger. Determine whether a worker is within the fall zone under a genuinely suspended load. Return null when unobservable. Describe only visible evidence.",
+    "max_inflight": 1,
+    "max_queue": 3,
+    "max_frames": 3,
+    "periodic_seconds": 30,
+    "periodic_scope": "open",
+    "periodic_prompt": "Inspect the visible scene for any hazards, unsafe interactions, or unexpected events involving any objects or people. Describe only visible evidence. Return unsafe:null if the scene or temporal context is insufficient; do not infer unseen actions.",
+    "confirm_active_incidents": false
+  },
+  "cameras": [
+    {
+      "id": "camera_01",
+      "video": "videos/camera_01.mp4",
+      "time_offset_s": 0,
+      "detector": {
+        "mode": "fresh",
+        "callable": "deploy.detector_adapter:detect",
+        "options": {
+          "device": "cpu",
+          "imgsz": 640,
+          "confidence": 0.25,
+          "models": [
+            {
+              "checkpoint": "models/phone.onnx",
+              "sha256": "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434",
+              "name": "fpi_phone-yolo26m-25ep-fp16.pt / ONNX FP32 native one-to-many",
+              "labels": [
+                "phone"
+              ],
+              "aliases": {
+                "cell phone": "phone",
+                "mobile phone": "phone"
+              },
+              "confidence": 0.45,
+              "source_checkpoint_sha256": "4a64e1c22ecc6ada6314f14b9554a33491b726be6777b4a3f3ebf6d85dca2eac",
+              "backend": "onnxruntime_cpu"
+            },
+            {
+              "checkpoint": "models/cigarette_rfdetr.onnx",
+              "sha256": "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599",
+              "name": "RF-DETR-Large2026 CigDet / ONNX FP32",
+              "labels": [
+                "cigarette"
+              ],
+              "confidence": 0.85,
+              "source_checkpoint_sha256": "64270cd6b14eb2f3bdacf0c3d16490566c1728022a18afcb39fc2f84ed9d8a64",
+              "backend": "rfdetr_onnx_cpu",
+              "attribute_regions": {
+                "enabled": false
+              }
+            }
+          ],
+          "linq_person": {
+            "model": "rfdetr",
+            "confidence": 0.35,
+            "models_root": "models/linq"
+          },
+          "threads": 1,
+          "attribute_regions": {
+            "enabled": true,
+            "person_expand": 0.15,
+            "max_people": 6,
+            "min_side": 32,
+            "merge_iou": 0.5
+          }
+        }
+      },
+      "classifier": {
+        "bundle": "models/convnext",
+        "backend": "cpu",
+        "task": "synthsite",
+        "threads": 1
+      },
+      "rules": [
+        {
+          "id": "suspended_load_clip_candidate",
+          "kind": "model_signal",
+          "source": "classifier",
+          "label": "unsafe",
+          "on_threshold": 0.7,
+          "off_threshold": 0.3,
+          "activate_after_s": 0.6,
+          "clear_after_s": 0.7,
+          "max_evidence_gap_s": 0.8,
+          "semantics": "rolling trained clip-head candidate; VLM validation required; temporal sampling differs from training"
+        }
+      ],
+      "T": 3,
+      "V": 1
+    }
+  ],
+  "quality": {
+    "enabled": true,
+    "min_laplacian_variance": 1.0,
+    "min_mean": 5,
+    "max_mean": 250,
+    "max_clipped_fraction": 0.98
+  },
+  "uncertainty": {
+    "scopes": [
+      "05"
+    ],
+    "min_max_probability": 0.75,
+    "min_margin": 0.15,
+    "cooldown_seconds": 5
+  }
+}

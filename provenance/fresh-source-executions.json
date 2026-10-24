@@ -1,0 +1,43 @@
+{
+  "phoneJobs": {
+    "source": "fresh source copy, installed model bundle and downloaded examples; no previous predictions",
+    "jobs": [
+      {
+        "sampleId": "pexels-phone-office-7253095",
+        "jobId": "be456270063e4a338ffaaf199d20e213",
+        "completed": true,
+        "earlyCandidateObserved": true,
+        "geometricZoneReviewSkipped": true,
+        "jobCreatedAtUTC": "2026-10-25T00:38:23.734374+00:00",
+        "jobCompletedAtUTC": "2026-10-25T00:39:39.128287+00:00",
+        "endToEndSeconds": 75.39
+      },
+      {
+        "sampleId": "pexels-phone-group-3252019",
+        "jobId": "83fe79aaccd840fc91ba2b180c294260",
+        "completed": true,
+        "earlyCandidateObserved": true,
+        "geometricZoneReviewSkipped": false,
+        "jobCreatedAtUTC": "2026-10-25T00:39:47.374315+00:00",
+        "jobCompletedAtUTC": "2026-10-25T00:41:46.980169+00:00",
+        "endToEndSeconds": 119.61
+      }
+    ]
+  },
+  "additionalCases": {
+    "sourceCopyHasNoPreviousPredictions": true,
+    "sourceCodeHashCheck": "clean-source-code.json",
+    "smokingGroup": {
+      "jobId": "290a36dd8e1d4d19adc713940c874111",
+      "completed": true,
+      "cigaretteBoxesVisible": true
+    },
+    "twoCameraCVOnly": {
+      "jobId": "37c40c81a84347e7bbeb4cce78fb8ebc",
+      "completed": true,
+      "cameraIsolatedFrames": true,
+      "sceneReviewDisabledWithoutError": true,
+      "analysisError": null
+    }
+  }
+}

@@ -1,0 +1,3333 @@
+{
+  "verifiedJobs": 29,
+  "programSHA256": "5a9b3a1be163c031876539a8ecb7232e847e1bca0235a8184b344654b410a1e6",
+  "validatedTPURequests": 172,
+  "actualCPUQwenResponses": 50,
+  "executedHeads": [
+    "harness_author",
+    "hmdb51_v2",
+    "omnifall_v2",
+    "physicalai_v2",
+    "safelift",
+    "synthsite"
+  ],
+  "allSixHeadsExecuted": true,
+  "jobs": [
+    {
+      "jobId": "20e951749f804c6f96f15088f6383c33",
+      "sampleId": "pexels-book-phone-control-6965763",
+      "task": "phone_use",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "bb18307ad1a95b1d55a054e7949fbc52dad733655c13dd2db4e645e0263fc37c"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "6aa81a8dcc7bbacee7f2953243b67b9390867173c1f606dc7ff772031e9c4cb0",
+      "rawFrameReceiptsSHA256": "4e7faa5614f9891fdc0c6fd66decb060435803758a3a66bce609723247d81ef4",
+      "decodedFrames": 150,
+      "detectorFrames": 6,
+      "validatedTPURequests": 6,
+      "validatedTPURequestIDs": [
+        "c64ba66855bf4a3a94b7944e73b0a1f8",
+        "0c83e13f0af3466aafc78ec9d8776000",
+        "2e337898177948049279ebe7139df19f",
+        "288fcf5a2dfe47c0b0fc278949d0a9dd",
+        "6c64b273d16442d3941fd930c28deeca",
+        "7c1e9368082e4db4b30ba422b2175d2e"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434"
+      ],
+      "classifierHeadExecutions": 0,
+      "classifierHeadSHA256": null,
+      "objectObservations": {
+        "person": 6
+      },
+      "framesWithLabel": {
+        "person": 6
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 6
+        }
+      },
+      "sampleObjectBoxes": [],
+      "actualCPUQwenResponses": 1,
+      "detectorStageMedianMs": 3074.3,
+      "tpuRequestRoundTripMedianMs": 180.1,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 2246.6
+      },
+      "endToEndJobWorkMs": 80447.25775002735,
+      "eventRuleCounts": {
+        "inspection": 2
+      },
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "290a36dd8e1d4d19adc713940c874111",
+      "sampleId": "pexels-smoking-group-7271829",
+      "task": "smoking",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "9c6d433da48e72e6ddda3f40cf1bc7bc1219823b31278b74fb59e7f994d9ac9b"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "15009672ad49cba679b24a0c9221f2e8c2f411d7b83e31afb071ed31a1b19a23",
+      "rawFrameReceiptsSHA256": "761b0bb5105e5529a2fd9e449d85998177fb152f2f77d9c61828ca50da270c5a",
+      "decodedFrames": 150,
+      "detectorFrames": 6,
+      "validatedTPURequests": 6,
+      "validatedTPURequestIDs": [
+        "8940dadafd3843509a4b97953999d27c",
+        "6355a46263cc4609991562dd6324bdd2",
+        "bbfdaa0fbc0b4f02b651f828f761522a",
+        "cff6e54822a1451e8e4ea82af73d21ff",
+        "7cd746a3ba2a42a5bc87ff53fd91b81d",
+        "82fe87fbf1e2404a8688fce875432883"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "cigarette"
+      ],
+      "cpuAttributeModelSHA256": [
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599"
+      ],
+      "classifierHeadExecutions": 0,
+      "classifierHeadSHA256": null,
+      "objectObservations": {
+        "person": 24,
+        "cigarette": 4
+      },
+      "framesWithLabel": {
+        "cigarette": 4,
+        "person": 6
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 24,
+          "cigarette": 4
+        }
+      },
+      "sampleObjectBoxes": [
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 0.0,
+          "label": "cigarette",
+          "score": 0.8975874185562134,
+          "xyxy": [
+            131.16236877441406,
+            866.2357788085938,
+            265.78076171875,
+            929.4013671875
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 1.0,
+          "label": "cigarette",
+          "score": 0.8855065107345581,
+          "xyxy": [
+            156.55694580078125,
+            881.5723876953125,
+            311.4726257324219,
+            937.2604370117188
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 2.0,
+          "label": "cigarette",
+          "score": 0.8767973780632019,
+          "xyxy": [
+            211.671142578125,
+            919.7349853515625,
+            350.64056396484375,
+            979.1563110351562
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 3.0,
+          "label": "cigarette",
+          "score": 0.8864654898643494,
+          "xyxy": [
+            245.3011932373047,
+            944.3160400390625,
+            384.6641845703125,
+            1004.7810668945312
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        }
+      ],
+      "actualCPUQwenResponses": 3,
+      "detectorStageMedianMs": 3365.0,
+      "tpuRequestRoundTripMedianMs": 187.8,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599": 2577.4
+      },
+      "endToEndJobWorkMs": 79258.17333400482,
+      "eventRuleCounts": {
+        "smoking_review": 1,
+        "inspection": 2
+      },
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "37c40c81a84347e7bbeb4cce78fb8ebc",
+      "sampleId": "upload_37c40c81a84347e7bbeb4cce78fb8ebc",
+      "task": "phone_objects",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "b6d799a94be5990a812436dd3b089ef713dd70591a5ed2eea6e701057fee7ea7",
+        "b1bb6b6aec8e7afb6f7196a6f8e8e53c2ecd7ede40fdfd234e632f26e2fcdb94"
+      ],
+      "cameraCount": 2,
+      "configSHA256": "fb275efff51d6c1fc59bb87c63334d61d2d4fb6532787482efeb34b67cb9ef6d",
+      "rawFrameReceiptsSHA256": "840e58b7deb15f22196e174acf604b521bc3991bcbe9e27a64adb01597f21d5e",
+      "decodedFrames": 300,
+      "detectorFrames": 12,
+      "validatedTPURequests": 12,
+      "validatedTPURequestIDs": [
+        "91e777a3f8314920b1335cb776e4a8ad",
+        "43a423a5c0614af6b7a061c658181a88",
+        "9ed18a322ed443f982f06f07229d88a3",
+        "3c5bea8ab515400cab5140ea9347acde",
+        "a23ab8221115401eadcee67334178f53",
+        "3f71c46fd7154e5eafd7fd8347286dbd",
+        "740ace55110f42b3b0fcd6de08f2a333",
+        "30908fcd883c40559c8493c6ea786dd7",
+        "c99020869c854005bfd3626001a7e3f4",
+        "a5d73de944c542cea8be4ec541d3eb00",
+        "06a933707d804bd293d884bf2bd25025",
+        "05b5c9c292374dd98618083c727fb2e7"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434"
+      ],
+      "classifierHeadExecutions": 0,
+      "classifierHeadSHA256": null,
+      "objectObservations": {
+        "person": 55,
+        "phone": 12
+      },
+      "framesWithLabel": {
+        "person": 12,
+        "phone": 12
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 23,
+          "phone": 6
+        },
+        "user_camera_02": {
+          "person": 32,
+          "phone": 6
+        }
+      },
+      "sampleObjectBoxes": [
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 0.0,
+          "label": "phone",
+          "score": 0.6349837183952332,
+          "xyxy": [
+            764.0166625976562,
+            394.6759948730469,
+            837.1546325683594,
+            487.02069091796875
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_02",
+          "timestampSeconds": 0.0,
+          "label": "phone",
+          "score": 0.5549415946006775,
+          "xyxy": [
+            1752.665771484375,
+            321.3099365234375,
+            1920.0,
+            494.0991516113281
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 1.0,
+          "label": "phone",
+          "score": 0.7371411323547363,
+          "xyxy": [
+            721.8682708740234,
+            427.59906005859375,
+            793.2265472412109,
+            507.89068603515625
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_02",
+          "timestampSeconds": 1.0,
+          "label": "phone",
+          "score": 0.4687231779098511,
+          "xyxy": [
+            1661.2164306640625,
+            321.6659851074219,
+            1844.7503051757812,
+            473.62347412109375
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 2.0,
+          "label": "phone",
+          "score": 0.6419159173965454,
+          "xyxy": [
+            731.4606018066406,
+            436.9166564941406,
+            800.111572265625,
+            521.2088623046875
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_02",
+          "timestampSeconds": 2.0,
+          "label": "phone",
+          "score": 0.6211302876472473,
+          "xyxy": [
+            1342.763671875,
+            326.00860595703125,
+            1602.979248046875,
+            498.3446350097656
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 3.0,
+          "label": "phone",
+          "score": 0.669282078742981,
+          "xyxy": [
+            717.8477783203125,
+            422.74383544921875,
+            787.8294067382812,
+            516.8402709960938
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_02",
+          "timestampSeconds": 3.0,
+          "label": "phone",
+          "score": 0.6508496403694153,
+          "xyxy": [
+            1027.2261962890625,
+            357.81939697265625,
+            1283.8287353515625,
+            543.5064697265625
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 4.0,
+          "label": "phone",
+          "score": 0.7194086313247681,
+          "xyxy": [
+            712.2125015258789,
+            432.5927429199219,
+            788.1300659179688,
+            526.8230285644531
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_02",
+          "timestampSeconds": 4.0,
+          "label": "phone",
+          "score": 0.620481014251709,
+          "xyxy": [
+            626.0411376953125,
+            325.2472229003906,
+            895.570556640625,
+            537.6275634765625
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 5.0,
+          "label": "phone",
+          "score": 0.7493104934692383,
+          "xyxy": [
+            701.6589965820312,
+            430.3350524902344,
+            781.2109985351562,
+            527.2168579101562
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_02",
+          "timestampSeconds": 5.0,
+          "label": "phone",
+          "score": 0.5966048240661621,
+          "xyxy": [
+            88.95167541503906,
+            322.6611022949219,
+            416.4712829589844,
+            596.27197265625
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        }
+      ],
+      "actualCPUQwenResponses": 0,
+      "detectorStageMedianMs": 2814.0,
+      "tpuRequestRoundTripMedianMs": 178.1,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 2352.5
+      },
+      "endToEndJobWorkMs": 110202.3186670267,
+      "eventRuleCounts": {
+        "phone_present": 2
+      },
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "3c04d241ab9a4ded91fa894f09fb0a56",
+      "sampleId": "image_set_3c04d241ab9a4ded91fa894f09fb0a56",
+      "task": "phone_objects",
+      "inputKind": "image_set",
+      "syntheticTime": true,
+      "originalImageSHA256": [
+        "12c0b076b8444fda6db37586507a0712af4e0c253ad6a4a52e5d5812870903cc",
+        "c4de9216c129daba4bf57d935f726c0100fe640e1dbe465d5f269668bf92681a",
+        "cb12842ce1c54bc4b8ceb3e0b46985c10ad737c29bd498008ca0aab55e310fe9"
+      ],
+      "sourceSHA256": [
+        "73b881a41088fe1784f1429629df91f07751b09b07a9677470006054dbf29781"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "3b48056ae62e3129a6691f8b13c4e34a066a033f4b6676fa946bffba5d887751",
+      "rawFrameReceiptsSHA256": "e60a369a1f9aaf237ac737b1b9f69db3a24abc522c9f29bd02490340c6909691",
+      "decodedFrames": 3,
+      "detectorFrames": 3,
+      "validatedTPURequests": 3,
+      "validatedTPURequestIDs": [
+        "7951a76e0210418fb6f74bf1e846dd97",
+        "8baa83d6779b405b8662db376731ad2c",
+        "aee8622c86984e049852906543a7a598"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434"
+      ],
+      "classifierHeadExecutions": 0,
+      "classifierHeadSHA256": null,
+      "objectObservations": {
+        "person": 12,
+        "phone": 3
+      },
+      "framesWithLabel": {
+        "person": 3,
+        "phone": 3
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 12,
+          "phone": 3
+        }
+      },
+      "sampleObjectBoxes": [
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 0.0,
+          "label": "phone",
+          "score": 0.7567183375358582,
+          "xyxy": [
+            721.9537391662598,
+            426.4710998535156,
+            793.8139953613281,
+            507.2518615722656
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 1.0,
+          "label": "phone",
+          "score": 0.6838604807853699,
+          "xyxy": [
+            719.8669052124023,
+            426.41156005859375,
+            792.1261291503906,
+            522.2237854003906
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 2.0,
+          "label": "phone",
+          "score": 0.7754894495010376,
+          "xyxy": [
+            702.6939849853516,
+            430.603759765625,
+            781.9767761230469,
+            525.4544677734375
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        }
+      ],
+      "actualCPUQwenResponses": 2,
+      "detectorStageMedianMs": 4346.0,
+      "tpuRequestRoundTripMedianMs": 215.1,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 2800.1
+      },
+      "endToEndJobWorkMs": 54675.01199996332,
+      "eventRuleCounts": {
+        "phone_present": 1,
+        "inspection": 1
+      },
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "6ba1408a8f5b404f83d463a88c6151de",
+      "sampleId": "upload_6ba1408a8f5b404f83d463a88c6151de",
+      "task": "omnifall_v2",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "50b1c82667195fb819db588ae821cdf14a1a4d790e53e6f6d8a37448710b8c64"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "edd426b2943ae5f3ac1da1794f6603d7e76620ccc794761b9a23310c0c7cdf37",
+      "rawFrameReceiptsSHA256": "7c211fb75c4742c7810c459c28479c7c76372eca3866b41154dda126c3e17762",
+      "decodedFrames": 180,
+      "detectorFrames": 6,
+      "validatedTPURequests": 6,
+      "validatedTPURequestIDs": [
+        "26d4ec72f1344ce38b6fe3c78b287ddb",
+        "54ca46ee643c404789b69265fe64f1f4",
+        "068e10a4279c4f4da2c6c25c13094ffc",
+        "1b8996d32ee94f27acf70ab84e5f6e32",
+        "6279decaf6f94316983250ae3b0d1c9d",
+        "d3f32f532c5d44be8d5e9475ab1bee50"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "cigarette",
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599",
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434"
+      ],
+      "classifierHeadExecutions": 4,
+      "classifierHeadSHA256": "3605faa6a412c9fef93610d73d30eeb21883202f4cf148a94675bc2f622ec967",
+      "objectObservations": {
+        "person": 3,
+        "phone": 1
+      },
+      "framesWithLabel": {
+        "person": 3,
+        "phone": 1
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 3,
+          "phone": 1
+        }
+      },
+      "sampleObjectBoxes": [
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 1.0,
+          "label": "phone",
+          "score": 0.5260308384895325,
+          "xyxy": [
+            705.4449005126953,
+            10.617612838745117,
+            769.3254852294922,
+            82.73918914794922
+          ],
+          "frameSize": [
+            1280,
+            720
+          ]
+        }
+      ],
+      "actualCPUQwenResponses": 2,
+      "detectorStageMedianMs": 2648.4,
+      "tpuRequestRoundTripMedianMs": 170.8,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 778.3,
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599": 1566.1
+      },
+      "endToEndJobWorkMs": 72979.77379197255,
+      "eventRuleCounts": {
+        "inspection": 2
+      },
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "83fe79aaccd840fc91ba2b180c294260",
+      "sampleId": "pexels-phone-group-3252019",
+      "task": "phone_use",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "b1bb6b6aec8e7afb6f7196a6f8e8e53c2ecd7ede40fdfd234e632f26e2fcdb94"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "fe3fb554fc4b05847b413abb3251034f7c0391ecbb07957735ab13c80500e3d7",
+      "rawFrameReceiptsSHA256": "442eb371a7620e99dd20b02763ae12f70d388367c936dc7395f953adcc72a436",
+      "decodedFrames": 150,
+      "detectorFrames": 6,
+      "validatedTPURequests": 6,
+      "validatedTPURequestIDs": [
+        "3916d50f6a11425387a2ce39e15ccca7",
+        "1a08566167674b82b7acd686687624c0",
+        "4f215f9744e8403f8ce0328df047e85f",
+        "3045b85a619c48a1bfa7df6425d3917b",
+        "226af11708204080a6c32be3d5ba8a91",
+        "3809dea2428a47d8859b332f4dab2943"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434"
+      ],
+      "classifierHeadExecutions": 0,
+      "classifierHeadSHA256": null,
+      "objectObservations": {
+        "person": 32,
+        "phone": 6
+      },
+      "framesWithLabel": {
+        "person": 6,
+        "phone": 6
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 32,
+          "phone": 6
+        }
+      },
+      "sampleObjectBoxes": [
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 0.0,
+          "label": "phone",
+          "score": 0.5549415946006775,
+          "xyxy": [
+            1752.665771484375,
+            321.3099365234375,
+            1920.0,
+            494.0991516113281
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 1.0,
+          "label": "phone",
+          "score": 0.4687231779098511,
+          "xyxy": [
+            1661.2164306640625,
+            321.6659851074219,
+            1844.7503051757812,
+            473.62347412109375
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 2.0,
+          "label": "phone",
+          "score": 0.6211302876472473,
+          "xyxy": [
+            1342.763671875,
+            326.00860595703125,
+            1602.979248046875,
+            498.3446350097656
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 3.0,
+          "label": "phone",
+          "score": 0.6508496403694153,
+          "xyxy": [
+            1027.2261962890625,
+            357.81939697265625,
+            1283.8287353515625,
+            543.5064697265625
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 4.0,
+          "label": "phone",
+          "score": 0.620481014251709,
+          "xyxy": [
+            626.0411376953125,
+            325.2472229003906,
+            895.570556640625,
+            537.6275634765625
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 5.0,
+          "label": "phone",
+          "score": 0.5966048240661621,
+          "xyxy": [
+            88.95167541503906,
+            322.6611022949219,
+            416.4712829589844,
+            596.27197265625
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        }
+      ],
+      "actualCPUQwenResponses": 3,
+      "detectorStageMedianMs": 8105.5,
+      "tpuRequestRoundTripMedianMs": 174.4,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 7350.4
+      },
+      "endToEndJobWorkMs": 119605.25975003839,
+      "eventRuleCounts": {
+        "phone_use_review": 1,
+        "inspection": 2
+      },
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "a29f340a06d24081b2404e1d39521b25",
+      "sampleId": "pexels-drinks-group-control-9352614",
+      "task": "smoking",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "5b74c4e8f6629e23df5a28cb6efbb32d0d81676f48f9960c34ec82b74859de01"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "49b45a6a70ac9d2afa0fabe721380b9672cb10b05631796326ba834aefdcd58d",
+      "rawFrameReceiptsSHA256": "3b4bf20a1a75f0e11ee7655403201d970f1053f7c34f4d3dc5ea0c36464c4a9f",
+      "decodedFrames": 180,
+      "detectorFrames": 6,
+      "validatedTPURequests": 6,
+      "validatedTPURequestIDs": [
+        "2f133d6981f748fe9da575b238681062",
+        "0617ef6113a940c594ac15f6835a7397",
+        "304057eef98e4c18a083f64016978d34",
+        "9ca33218b1ee4e13989210f30f404f49",
+        "865e334a2c054176a7401b2f11bd6a91",
+        "05bac0ea59ab4ff184ed1746c3dcc930"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "cigarette"
+      ],
+      "cpuAttributeModelSHA256": [
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599"
+      ],
+      "classifierHeadExecutions": 0,
+      "classifierHeadSHA256": null,
+      "objectObservations": {
+        "person": 36
+      },
+      "framesWithLabel": {
+        "person": 6
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 36
+        }
+      },
+      "sampleObjectBoxes": [],
+      "actualCPUQwenResponses": 2,
+      "detectorStageMedianMs": 5191.3,
+      "tpuRequestRoundTripMedianMs": 186.8,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599": 3822.6
+      },
+      "endToEndJobWorkMs": 124052.01845796546,
+      "eventRuleCounts": {
+        "inspection": 2
+      },
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "be456270063e4a338ffaaf199d20e213",
+      "sampleId": "pexels-phone-office-7253095",
+      "task": "phone_use",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "b6d799a94be5990a812436dd3b089ef713dd70591a5ed2eea6e701057fee7ea7"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "98a10a117129ea5f8cdf502c9e211f1cb0beceb13b19fc555bf4c8dee9db2e6e",
+      "rawFrameReceiptsSHA256": "3ac0bd5c8d989cd2eb78441488ed17b63779e219e8aa2e638091e8f1a040c200",
+      "decodedFrames": 150,
+      "detectorFrames": 6,
+      "validatedTPURequests": 6,
+      "validatedTPURequestIDs": [
+        "31e1bcb4bb28489aab4cc71bfd394ead",
+        "afbda04b014a4f11ae05fba4df01d612",
+        "e0ce7333ad4649069eabfb80085ce35f",
+        "4f7626dcd8f749a2a37fc0e82b37c0a8",
+        "af84e541697d44d0bd09563c58d8ad17",
+        "bcee272acaee4e51be1d5bf9fd484784"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434"
+      ],
+      "classifierHeadExecutions": 0,
+      "classifierHeadSHA256": null,
+      "objectObservations": {
+        "person": 23,
+        "phone": 6
+      },
+      "framesWithLabel": {
+        "person": 6,
+        "phone": 6
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 23,
+          "phone": 6
+        }
+      },
+      "sampleObjectBoxes": [
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 0.0,
+          "label": "phone",
+          "score": 0.6349837183952332,
+          "xyxy": [
+            764.0166625976562,
+            394.6759948730469,
+            837.1546325683594,
+            487.02069091796875
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 1.0,
+          "label": "phone",
+          "score": 0.7371411323547363,
+          "xyxy": [
+            721.8682708740234,
+            427.59906005859375,
+            793.2265472412109,
+            507.89068603515625
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 2.0,
+          "label": "phone",
+          "score": 0.6419159173965454,
+          "xyxy": [
+            731.4606018066406,
+            436.9166564941406,
+            800.111572265625,
+            521.2088623046875
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 3.0,
+          "label": "phone",
+          "score": 0.669282078742981,
+          "xyxy": [
+            717.8477783203125,
+            422.74383544921875,
+            787.8294067382812,
+            516.8402709960938
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 4.0,
+          "label": "phone",
+          "score": 0.7194086313247681,
+          "xyxy": [
+            712.2125015258789,
+            432.5927429199219,
+            788.1300659179688,
+            526.8230285644531
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 5.0,
+          "label": "phone",
+          "score": 0.7493104934692383,
+          "xyxy": [
+            701.6589965820312,
+            430.3350524902344,
+            781.2109985351562,
+            527.2168579101562
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        }
+      ],
+      "actualCPUQwenResponses": 3,
+      "detectorStageMedianMs": 3511.7,
+      "tpuRequestRoundTripMedianMs": 165.5,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 2035.6
+      },
+      "endToEndJobWorkMs": 75392.95520901214,
+      "eventRuleCounts": {
+        "phone_use_review": 1,
+        "zone_pexels-phone-office-7253095": 1,
+        "inspection": 2
+      },
+      "zonesApplied": true,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "125d7f150da4481ea772699fce7211ff",
+      "sampleId": "upload_125d7f150da4481ea772699fce7211ff",
+      "task": "harness_author",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "227dc8d00cc5f5b9a35c9226041b0e37e399e7d831e3fea1b80e6ce776cbb0ac"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "0d4efd2e92f7e504881a8d6ebfabfd40468efd0b63a13abe31fd492a2ad0bcc2",
+      "rawFrameReceiptsSHA256": "b2bc57735e22c371b23b51908724718dd6d00fd15321ae713a16b9ee6c5aa780",
+      "decodedFrames": 36,
+      "detectorFrames": 3,
+      "validatedTPURequests": 3,
+      "validatedTPURequestIDs": [
+        "528ce1f7343d4fc2906452d09bf17fd5",
+        "895bc748f58c4ee6b3c9059c8a0ca475",
+        "a3802def4c664dc684cce7f43247fe2c"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "cigarette",
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434",
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1"
+      ],
+      "classifierHeadExecutions": 3,
+      "classifierHeadSHA256": "9d0eb757adedb60ee2dd8a617706e3bf313f34977106870302a24e72198487ff",
+      "objectObservations": {
+        "person": 3
+      },
+      "framesWithLabel": {
+        "person": 3
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 3
+        }
+      },
+      "sampleObjectBoxes": [],
+      "actualCPUQwenResponses": 0,
+      "detectorStageMedianMs": 1743.8,
+      "tpuRequestRoundTripMedianMs": 558.3,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 494.4,
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1": 573.3
+      },
+      "endToEndJobWorkMs": 18057.822709030006,
+      "eventRuleCounts": {},
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "1b6088fdb3ea417cb583501a17395bc0",
+      "sampleId": "upload_3af8ce396e9d4b869e808d02b2d5b6b4",
+      "task": "safelift",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "0b279b0318035069cf213eefb2c37bfb833c0dfd9d5df83eaf4a171107538fef"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "6e8e1e4803ae038ce8377de28d93cce4ee48a1d030c5e3395a3ee3d18c5f31da",
+      "rawFrameReceiptsSHA256": "f6d0dc242d1cab8e6072f55bf44ead4a9cff8012fa00f595a73b3f4ee971cdd3",
+      "decodedFrames": 120,
+      "detectorFrames": 4,
+      "validatedTPURequests": 4,
+      "validatedTPURequestIDs": [
+        "90458a6a05ce4601adaf630420a33bf5",
+        "cdda715f305d4672ad44df55f1307b36",
+        "8585b595a3524347803f056835836c6d",
+        "8ac557057c074c77aa7871fdaca37b78"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "cigarette",
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434",
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1"
+      ],
+      "classifierHeadExecutions": 3,
+      "classifierHeadSHA256": "7ad926f59fb48a7e307a855d0d70b340293fcd73d284a700cb1d84bf5b156391",
+      "objectObservations": {
+        "person": 4
+      },
+      "framesWithLabel": {
+        "person": 3
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 4
+        }
+      },
+      "sampleObjectBoxes": [],
+      "actualCPUQwenResponses": 0,
+      "detectorStageMedianMs": 1673.8,
+      "tpuRequestRoundTripMedianMs": 188.0,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 521.7,
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1": 527.3
+      },
+      "endToEndJobWorkMs": 37589.32824997464,
+      "eventRuleCounts": {},
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "2edb908598264581a94e154e541e4b3d",
+      "sampleId": "upload_2edb908598264581a94e154e541e4b3d",
+      "task": "phone_objects",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "b6d799a94be5990a812436dd3b089ef713dd70591a5ed2eea6e701057fee7ea7",
+        "b1bb6b6aec8e7afb6f7196a6f8e8e53c2ecd7ede40fdfd234e632f26e2fcdb94"
+      ],
+      "cameraCount": 2,
+      "configSHA256": "53ee1e1155efb137d7a2b7012c7bc8020fa34036cd2e90ee4450efb8786b9e18",
+      "rawFrameReceiptsSHA256": "a0c33681a7279df51bf639e0634ac070401dcb0063b7c4b954faaea586ea0bc5",
+      "decodedFrames": 300,
+      "detectorFrames": 12,
+      "validatedTPURequests": 12,
+      "validatedTPURequestIDs": [
+        "31ec5f91c31c445fa8150cca51ec60df",
+        "76677d30cbaa47f4a051bd93349f62b4",
+        "58131efb9fe64dc08bfb920b821dd438",
+        "66a912d511ae42c0940434ea16c4dd10",
+        "fa45b2b14e3149d2a82c1ccdfff51c01",
+        "9957fe5a9a4d4e089f1022c525652799",
+        "705a7e88c321453198eb802da3895d45",
+        "4600bb8fe4eb4fa4b9ec191d183b960b",
+        "c2fd60827e924e70ac51cda9f53af7e5",
+        "b0392f3569c7445cb20f6631d66a976c",
+        "1b7154338b4a49479f4167f0f8f29487",
+        "aa6d35105ef14c6f816dbce89ff61ff1"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434"
+      ],
+      "classifierHeadExecutions": 0,
+      "classifierHeadSHA256": null,
+      "objectObservations": {
+        "person": 55,
+        "phone": 12
+      },
+      "framesWithLabel": {
+        "person": 12,
+        "phone": 12
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 23,
+          "phone": 6
+        },
+        "user_camera_02": {
+          "person": 32,
+          "phone": 6
+        }
+      },
+      "sampleObjectBoxes": [
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 0.0,
+          "label": "phone",
+          "score": 0.6349837183952332,
+          "xyxy": [
+            764.0166625976562,
+            394.6759948730469,
+            837.1546325683594,
+            487.02069091796875
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_02",
+          "timestampSeconds": 0.0,
+          "label": "phone",
+          "score": 0.5549415946006775,
+          "xyxy": [
+            1752.665771484375,
+            321.3099365234375,
+            1920.0,
+            494.0991516113281
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 1.0,
+          "label": "phone",
+          "score": 0.7371411323547363,
+          "xyxy": [
+            721.8682708740234,
+            427.59906005859375,
+            793.2265472412109,
+            507.89068603515625
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_02",
+          "timestampSeconds": 1.0,
+          "label": "phone",
+          "score": 0.4687231779098511,
+          "xyxy": [
+            1661.2164306640625,
+            321.6659851074219,
+            1844.7503051757812,
+            473.62347412109375
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 2.0,
+          "label": "phone",
+          "score": 0.6419159173965454,
+          "xyxy": [
+            731.4606018066406,
+            436.9166564941406,
+            800.111572265625,
+            521.2088623046875
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_02",
+          "timestampSeconds": 2.0,
+          "label": "phone",
+          "score": 0.6211302876472473,
+          "xyxy": [
+            1342.763671875,
+            326.00860595703125,
+            1602.979248046875,
+            498.3446350097656
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 3.0,
+          "label": "phone",
+          "score": 0.669282078742981,
+          "xyxy": [
+            717.8477783203125,
+            422.74383544921875,
+            787.8294067382812,
+            516.8402709960938
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_02",
+          "timestampSeconds": 3.0,
+          "label": "phone",
+          "score": 0.6508496403694153,
+          "xyxy": [
+            1027.2261962890625,
+            357.81939697265625,
+            1283.8287353515625,
+            543.5064697265625
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 4.0,
+          "label": "phone",
+          "score": 0.7194086313247681,
+          "xyxy": [
+            712.2125015258789,
+            432.5927429199219,
+            788.1300659179688,
+            526.8230285644531
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_02",
+          "timestampSeconds": 4.0,
+          "label": "phone",
+          "score": 0.620481014251709,
+          "xyxy": [
+            626.0411376953125,
+            325.2472229003906,
+            895.570556640625,
+            537.6275634765625
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 5.0,
+          "label": "phone",
+          "score": 0.7493104934692383,
+          "xyxy": [
+            701.6589965820312,
+            430.3350524902344,
+            781.2109985351562,
+            527.2168579101562
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_02",
+          "timestampSeconds": 5.0,
+          "label": "phone",
+          "score": 0.5966048240661621,
+          "xyxy": [
+            88.95167541503906,
+            322.6611022949219,
+            416.4712829589844,
+            596.27197265625
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        }
+      ],
+      "actualCPUQwenResponses": 0,
+      "detectorStageMedianMs": 2524.7,
+      "tpuRequestRoundTripMedianMs": 169.4,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 2125.8
+      },
+      "endToEndJobWorkMs": 107593.75104203355,
+      "eventRuleCounts": {
+        "phone_present": 2
+      },
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "30a0550e4d4a48d58b1c8466b4f4c07c",
+      "sampleId": "upload_30a0550e4d4a48d58b1c8466b4f4c07c",
+      "task": "hmdb51_v2",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "5422e06d54625751f14ea39025a2abc10696315ad41038780722005e01ef17da"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "008ea6ad0d779a57be5b89e98aaf0c3ed7eae4b2fed4077f33d8d947f051f3ae",
+      "rawFrameReceiptsSHA256": "6b2c73b0212ad02e63e07eaf5901b837f442628b58e088e5a7bcc2e8b388636c",
+      "decodedFrames": 180,
+      "detectorFrames": 6,
+      "validatedTPURequests": 6,
+      "validatedTPURequestIDs": [
+        "9cf59bd00cd24c0a9609ce7742d0b7fa",
+        "82a0878bdb2f4217bae26e7648253d46",
+        "a6fd49ab61af4421862cfde2ec222f32",
+        "fbeca955fcc94d50813cc2c8f7937de4",
+        "ea4edc8f7578456eb4c2a8a63b0dd949",
+        "bd40f6c267c8473f86a611fd07943371"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "cigarette",
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434",
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1"
+      ],
+      "classifierHeadExecutions": 4,
+      "classifierHeadSHA256": "8cdefff7088c87811bd382eb54f7638f49d75eb1d78cb6fc11c8c6db93fb00a4",
+      "objectObservations": {
+        "person": 14
+      },
+      "framesWithLabel": {
+        "person": 6
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 14
+        }
+      },
+      "sampleObjectBoxes": [],
+      "actualCPUQwenResponses": 2,
+      "detectorStageMedianMs": 2974.3,
+      "tpuRequestRoundTripMedianMs": 186.3,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 694.4,
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1": 807.5
+      },
+      "endToEndJobWorkMs": 72680.75970798964,
+      "eventRuleCounts": {
+        "inspection": 2
+      },
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "335e7c8c083e4d56820ddbbf527dad9f",
+      "sampleId": "pexels-phone-office-7253095",
+      "task": "phone_use",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "b6d799a94be5990a812436dd3b089ef713dd70591a5ed2eea6e701057fee7ea7"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "3bc46289bf86682c9be2e60852e9808942264776b443056ab5e1dbff7dca908b",
+      "rawFrameReceiptsSHA256": "f38bef9bd69d4cb71c71716f6b198b4b7aa10064123dea371a1921b385f6d4e3",
+      "decodedFrames": 150,
+      "detectorFrames": 6,
+      "validatedTPURequests": 6,
+      "validatedTPURequestIDs": [
+        "6697336760de48d7b47bc77e3a8e8dbe",
+        "60e13e39c25b4b96a883f1729e446bc6",
+        "3ddfbb7a80474757b84bf7b49884a998",
+        "0aafb927cd1c4508a7d6140d0dfb171b",
+        "d2b8f168d011427ba08cb4072c7c6e72",
+        "478b7893302f46339bee5c3af4731481"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434"
+      ],
+      "classifierHeadExecutions": 0,
+      "classifierHeadSHA256": null,
+      "objectObservations": {
+        "person": 23,
+        "phone": 6
+      },
+      "framesWithLabel": {
+        "person": 6,
+        "phone": 6
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 23,
+          "phone": 6
+        }
+      },
+      "sampleObjectBoxes": [
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 0.0,
+          "label": "phone",
+          "score": 0.6349837183952332,
+          "xyxy": [
+            764.0166625976562,
+            394.6759948730469,
+            837.1546325683594,
+            487.02069091796875
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 1.0,
+          "label": "phone",
+          "score": 0.7371411323547363,
+          "xyxy": [
+            721.8682708740234,
+            427.59906005859375,
+            793.2265472412109,
+            507.89068603515625
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 2.0,
+          "label": "phone",
+          "score": 0.6419159173965454,
+          "xyxy": [
+            731.4606018066406,
+            436.9166564941406,
+            800.111572265625,
+            521.2088623046875
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 3.0,
+          "label": "phone",
+          "score": 0.669282078742981,
+          "xyxy": [
+            717.8477783203125,
+            422.74383544921875,
+            787.8294067382812,
+            516.8402709960938
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 4.0,
+          "label": "phone",
+          "score": 0.7194086313247681,
+          "xyxy": [
+            712.2125015258789,
+            432.5927429199219,
+            788.1300659179688,
+            526.8230285644531
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 5.0,
+          "label": "phone",
+          "score": 0.7493104934692383,
+          "xyxy": [
+            701.6589965820312,
+            430.3350524902344,
+            781.2109985351562,
+            527.2168579101562
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        }
+      ],
+      "actualCPUQwenResponses": 3,
+      "detectorStageMedianMs": 5327.1,
+      "tpuRequestRoundTripMedianMs": 203.7,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 3960.5
+      },
+      "endToEndJobWorkMs": 115635.59158303542,
+      "eventRuleCounts": {
+        "phone_use_review": 1,
+        "zone_pexels-phone-office-7253095": 1,
+        "inspection": 2
+      },
+      "zonesApplied": true,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "3af8ce396e9d4b869e808d02b2d5b6b4",
+      "sampleId": "upload_3af8ce396e9d4b869e808d02b2d5b6b4",
+      "task": "physicalai_v2",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "0b279b0318035069cf213eefb2c37bfb833c0dfd9d5df83eaf4a171107538fef"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "74896f8b68ea74ec3986d07e5f0b4799c63216b606b2649995b3375114f7ec42",
+      "rawFrameReceiptsSHA256": "7cee55fd69df3794d8a8462c5b0f6ab4a1ede8667ab0b2c273fb436826c113bf",
+      "decodedFrames": 120,
+      "detectorFrames": 4,
+      "validatedTPURequests": 4,
+      "validatedTPURequestIDs": [
+        "3ea206b49af845a2a8d371560686120a",
+        "dd80333272a24ff3bab635692b1c8d44",
+        "130d783e788e4c749a1bc1097030a3f4",
+        "b25412371ca8415dbf8cabe6917effb4"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "cigarette",
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434",
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1"
+      ],
+      "classifierHeadExecutions": 2,
+      "classifierHeadSHA256": "ef1bddc3a7d5d09415142b105f7bb478cde0541a2a4ced6f836d3f86e0cad7a8",
+      "objectObservations": {
+        "person": 4
+      },
+      "framesWithLabel": {
+        "person": 3
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 4
+        }
+      },
+      "sampleObjectBoxes": [],
+      "actualCPUQwenResponses": 0,
+      "detectorStageMedianMs": 1773.8,
+      "tpuRequestRoundTripMedianMs": 162.3,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 550.6,
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1": 547.8
+      },
+      "endToEndJobWorkMs": 38683.65741701564,
+      "eventRuleCounts": {},
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "3e0d942b5e504957bf6976c2046057e2",
+      "sampleId": "pexels-drinks-group-control-9352614",
+      "task": "smoking",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "5b74c4e8f6629e23df5a28cb6efbb32d0d81676f48f9960c34ec82b74859de01"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "738b221e1f37a10182c1d80da82304b41c3fcca1b0adda9e00c9b732f3184174",
+      "rawFrameReceiptsSHA256": "9669577b8bc907c28543c14114163056413ed71956f36afcec91346ddbf14187",
+      "decodedFrames": 180,
+      "detectorFrames": 6,
+      "validatedTPURequests": 6,
+      "validatedTPURequestIDs": [
+        "556aca98a19d49349f525046076adff3",
+        "b778edadc3434d15884395c7d1f32aff",
+        "bdcd607397fd439483fa08e2f941190b",
+        "468037f4289f444fa4d98a01ec80a949",
+        "407ab67aacde4c53b330ae65963f5341",
+        "e936a344b04a461f9528be50c73d9c7d"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "cigarette"
+      ],
+      "cpuAttributeModelSHA256": [
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599"
+      ],
+      "classifierHeadExecutions": 0,
+      "classifierHeadSHA256": null,
+      "objectObservations": {
+        "person": 36
+      },
+      "framesWithLabel": {
+        "person": 6
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 36
+        }
+      },
+      "sampleObjectBoxes": [],
+      "actualCPUQwenResponses": 2,
+      "detectorStageMedianMs": 6073.5,
+      "tpuRequestRoundTripMedianMs": 198.0,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599": 4629.4
+      },
+      "endToEndJobWorkMs": 124251.23908300884,
+      "eventRuleCounts": {
+        "inspection": 2
+      },
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "60b2561bb99248e7a95e8b55ed00509d",
+      "sampleId": "upload_60b2561bb99248e7a95e8b55ed00509d",
+      "task": "hmdb51_v2",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "af10d01f60fd1bcf5276ee2d45d7a6f708cee8c442ec4167bc50725a4c8c8ac8"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "b9a5c637efc43ec45b188d9302a9160826e7c809e3ae8d9839e20ead7fa1ff5a",
+      "rawFrameReceiptsSHA256": "1b34dacba8e593722cdff4b40f2104a596bb5170022ecc161b2387a00fe14cd3",
+      "decodedFrames": 96,
+      "detectorFrames": 4,
+      "validatedTPURequests": 4,
+      "validatedTPURequestIDs": [
+        "2e00025384af4b2780d0447110b807d2",
+        "78cfbfd4c6324a4eb0e2cfab5de5ce60",
+        "e6bc4b379b654ece9b26fd73b8537f1e",
+        "9f09557b17ed4aa6b09ca020252e45e7"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "cigarette",
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434",
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1"
+      ],
+      "classifierHeadExecutions": 2,
+      "classifierHeadSHA256": "8cdefff7088c87811bd382eb54f7638f49d75eb1d78cb6fc11c8c6db93fb00a4",
+      "objectObservations": {
+        "person": 4
+      },
+      "framesWithLabel": {
+        "person": 4
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 4
+        }
+      },
+      "sampleObjectBoxes": [],
+      "actualCPUQwenResponses": 0,
+      "detectorStageMedianMs": 1701.0,
+      "tpuRequestRoundTripMedianMs": 367.8,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 486.3,
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1": 523.5
+      },
+      "endToEndJobWorkMs": 30067.06483301241,
+      "eventRuleCounts": {},
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "6c795408e82b4c67863e4f27ff20e2d8",
+      "sampleId": "pexels-phone-office-7253095",
+      "task": "phone_use",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "b6d799a94be5990a812436dd3b089ef713dd70591a5ed2eea6e701057fee7ea7"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "331d9d5b3b7aea41efb08aa87fab1f5d9a710fdbb2239330a7f404c86488bec2",
+      "rawFrameReceiptsSHA256": "744456b6d096be18dc2e1024105e0db4cdc848637a01edf23be83ca9a24ed248",
+      "decodedFrames": 150,
+      "detectorFrames": 6,
+      "validatedTPURequests": 6,
+      "validatedTPURequestIDs": [
+        "69997ce8630442149557b4338cd9d3fd",
+        "7a66ef9d926d420f92cbb4dac867a04c",
+        "da8654ae80464cd68ffe006865ea0ba5",
+        "e5e6b2d7830a4bf9a5e296e0f554903d",
+        "8bc665577a6b4d2da9b97fe3e10b4a1b",
+        "f4c1ef08b06c4d598558a8d76b3533f8"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434"
+      ],
+      "classifierHeadExecutions": 0,
+      "classifierHeadSHA256": null,
+      "objectObservations": {
+        "person": 23,
+        "phone": 6
+      },
+      "framesWithLabel": {
+        "person": 6,
+        "phone": 6
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 23,
+          "phone": 6
+        }
+      },
+      "sampleObjectBoxes": [
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 0.0,
+          "label": "phone",
+          "score": 0.6349837183952332,
+          "xyxy": [
+            764.0166625976562,
+            394.6759948730469,
+            837.1546325683594,
+            487.02069091796875
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 1.0,
+          "label": "phone",
+          "score": 0.7371411323547363,
+          "xyxy": [
+            721.8682708740234,
+            427.59906005859375,
+            793.2265472412109,
+            507.89068603515625
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 2.0,
+          "label": "phone",
+          "score": 0.6419159173965454,
+          "xyxy": [
+            731.4606018066406,
+            436.9166564941406,
+            800.111572265625,
+            521.2088623046875
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 3.0,
+          "label": "phone",
+          "score": 0.669282078742981,
+          "xyxy": [
+            717.8477783203125,
+            422.74383544921875,
+            787.8294067382812,
+            516.8402709960938
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 4.0,
+          "label": "phone",
+          "score": 0.7194086313247681,
+          "xyxy": [
+            712.2125015258789,
+            432.5927429199219,
+            788.1300659179688,
+            526.8230285644531
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 5.0,
+          "label": "phone",
+          "score": 0.7493104934692383,
+          "xyxy": [
+            701.6589965820312,
+            430.3350524902344,
+            781.2109985351562,
+            527.2168579101562
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        }
+      ],
+      "actualCPUQwenResponses": 3,
+      "detectorStageMedianMs": 6185.3,
+      "tpuRequestRoundTripMedianMs": 183.4,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 5407.3
+      },
+      "endToEndJobWorkMs": 95510.25024999399,
+      "eventRuleCounts": {
+        "zone_pexels-phone-office-7253095": 1,
+        "inspection": 2
+      },
+      "zonesApplied": true,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "6c9dfe4bb9cf4e84b22cd7df5c2fb591",
+      "sampleId": "pexels-smoking-group-7271829",
+      "task": "smoking",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "9c6d433da48e72e6ddda3f40cf1bc7bc1219823b31278b74fb59e7f994d9ac9b"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "dcf01b54931dddc058ddf1e4d52048f22f63b6b4a9161d12ab00d08acafa7de4",
+      "rawFrameReceiptsSHA256": "59c8e30487858f7be0cb20396842e8ca07f6b2fb61e02c10dd90964b39075acc",
+      "decodedFrames": 150,
+      "detectorFrames": 6,
+      "validatedTPURequests": 6,
+      "validatedTPURequestIDs": [
+        "5da2573464754432b2902775fec7dde9",
+        "c01f609e6d4c4bfe805d881bb2cd7387",
+        "037cbdbe7d214e96a7418c72261a7772",
+        "24ee9bf1db9148b39e6ec540d6e6cb2f",
+        "011421359a7a4b8d9ca5b13e977f6089",
+        "1e94332d46204eab92f13f0dd36949c7"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "cigarette"
+      ],
+      "cpuAttributeModelSHA256": [
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599"
+      ],
+      "classifierHeadExecutions": 0,
+      "classifierHeadSHA256": null,
+      "objectObservations": {
+        "person": 24,
+        "cigarette": 4
+      },
+      "framesWithLabel": {
+        "cigarette": 4,
+        "person": 6
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 24,
+          "cigarette": 4
+        }
+      },
+      "sampleObjectBoxes": [
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 0.0,
+          "label": "cigarette",
+          "score": 0.8975874185562134,
+          "xyxy": [
+            131.16236877441406,
+            866.2357788085938,
+            265.78076171875,
+            929.4013671875
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 1.0,
+          "label": "cigarette",
+          "score": 0.8855065107345581,
+          "xyxy": [
+            156.55694580078125,
+            881.5723876953125,
+            311.4726257324219,
+            937.2604370117188
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 2.0,
+          "label": "cigarette",
+          "score": 0.8767973780632019,
+          "xyxy": [
+            211.671142578125,
+            919.7349853515625,
+            350.64056396484375,
+            979.1563110351562
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 3.0,
+          "label": "cigarette",
+          "score": 0.8864654898643494,
+          "xyxy": [
+            245.3011932373047,
+            944.3160400390625,
+            384.6641845703125,
+            1004.7810668945312
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        }
+      ],
+      "actualCPUQwenResponses": 2,
+      "detectorStageMedianMs": 5401.2,
+      "tpuRequestRoundTripMedianMs": 175.4,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599": 3696.2
+      },
+      "endToEndJobWorkMs": 102425.94570800429,
+      "eventRuleCounts": {
+        "inspection": 2
+      },
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "7cc0995357e942c990a874504bd9c52c",
+      "sampleId": "pexels-smoking-group-7271829",
+      "task": "smoking",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "9c6d433da48e72e6ddda3f40cf1bc7bc1219823b31278b74fb59e7f994d9ac9b"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "77a9796b46065a64ac71c8ac8860e14fdeed12161fc757cf2f4539994a2a3063",
+      "rawFrameReceiptsSHA256": "b53d0f6051ae615d09f2aaaa3923a86c10bb937e4b36c3862dc97f4400f6f70c",
+      "decodedFrames": 150,
+      "detectorFrames": 6,
+      "validatedTPURequests": 6,
+      "validatedTPURequestIDs": [
+        "fa1ace8590e64ea785ac4ecb6c5100dc",
+        "5bae7de615d9418eb7829b427c67df81",
+        "8358bbb29e0e4924b574473a592f3008",
+        "392e6ff658e041d19cbbd6f4b354029c",
+        "21d37e09fe704e5baf27d1142b74ab48",
+        "b6a4b3e2956641ec87c228c08eac0189"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "cigarette"
+      ],
+      "cpuAttributeModelSHA256": [
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599"
+      ],
+      "classifierHeadExecutions": 0,
+      "classifierHeadSHA256": null,
+      "objectObservations": {
+        "person": 24,
+        "cigarette": 4
+      },
+      "framesWithLabel": {
+        "cigarette": 4,
+        "person": 6
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 24,
+          "cigarette": 4
+        }
+      },
+      "sampleObjectBoxes": [
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 0.0,
+          "label": "cigarette",
+          "score": 0.8975874185562134,
+          "xyxy": [
+            131.16236877441406,
+            866.2357788085938,
+            265.78076171875,
+            929.4013671875
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 1.0,
+          "label": "cigarette",
+          "score": 0.8855065107345581,
+          "xyxy": [
+            156.55694580078125,
+            881.5723876953125,
+            311.4726257324219,
+            937.2604370117188
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 2.0,
+          "label": "cigarette",
+          "score": 0.8767973780632019,
+          "xyxy": [
+            211.671142578125,
+            919.7349853515625,
+            350.64056396484375,
+            979.1563110351562
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 3.0,
+          "label": "cigarette",
+          "score": 0.8864654898643494,
+          "xyxy": [
+            245.3011932373047,
+            944.3160400390625,
+            384.6641845703125,
+            1004.7810668945312
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        }
+      ],
+      "actualCPUQwenResponses": 3,
+      "detectorStageMedianMs": 4879.5,
+      "tpuRequestRoundTripMedianMs": 168.7,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599": 4092.8
+      },
+      "endToEndJobWorkMs": 122754.7425829689,
+      "eventRuleCounts": {
+        "smoking_review": 1,
+        "inspection": 2
+      },
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "89b51e3e31f04631a3743881ebb04f44",
+      "sampleId": "pexels-book-phone-control-6965763",
+      "task": "phone_use",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "bb18307ad1a95b1d55a054e7949fbc52dad733655c13dd2db4e645e0263fc37c"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "8461d50bfc49c1426e725bda9e5e807af91753870cfa006fb8504f9daccd0d78",
+      "rawFrameReceiptsSHA256": "f947ef108eba206da2c2a76fa7e27a494332070c0d4909e5f598bc7a474f8652",
+      "decodedFrames": 150,
+      "detectorFrames": 6,
+      "validatedTPURequests": 6,
+      "validatedTPURequestIDs": [
+        "b8e27b1043af4be6ac75c60cd2bac694",
+        "b0333a4e28c84f39b4a30fd9f709c420",
+        "d40ca22669f3458b832351d1d83058e3",
+        "1b7c3ef7fcb84e6c883dc8c38c96dc09",
+        "0e464cfe18ff42c2a6abba5380a77c91",
+        "22bbab7c09ea4de2ac9c8b01f841c1fc"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434"
+      ],
+      "classifierHeadExecutions": 0,
+      "classifierHeadSHA256": null,
+      "objectObservations": {
+        "person": 6
+      },
+      "framesWithLabel": {
+        "person": 6
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 6
+        }
+      },
+      "sampleObjectBoxes": [],
+      "actualCPUQwenResponses": 2,
+      "detectorStageMedianMs": 3505.0,
+      "tpuRequestRoundTripMedianMs": 180.8,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 2222.4
+      },
+      "endToEndJobWorkMs": 80571.29891699878,
+      "eventRuleCounts": {
+        "inspection": 2
+      },
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "99cf09204b6340cabe39fe7c9c39ee93",
+      "sampleId": "upload_3af8ce396e9d4b869e808d02b2d5b6b4",
+      "task": "synthsite",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "0b279b0318035069cf213eefb2c37bfb833c0dfd9d5df83eaf4a171107538fef"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "f7d5f7800347ced9de08edcf30c121e61f120b342d63ed7dbf10584bf1a62d0d",
+      "rawFrameReceiptsSHA256": "05cbd9f9b464713cdd21bd5f2267fa1dd2797e51fb6a1f5dbed4475489b02a30",
+      "decodedFrames": 120,
+      "detectorFrames": 4,
+      "validatedTPURequests": 4,
+      "validatedTPURequestIDs": [
+        "b483c23ce6234560a112035d6d84d4aa",
+        "8271c5b784ab4d2ba80c5f74650ffedf",
+        "d733b7961db14948a8b5448d0a6559fd",
+        "a98821a962e44ee693898d18062ac8b9"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "cigarette",
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434",
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1"
+      ],
+      "classifierHeadExecutions": 2,
+      "classifierHeadSHA256": "e4bca4c8468b3762a510c82fa57a247b42c9b8542d5d63b81e5987bbd80dc1bd",
+      "objectObservations": {
+        "person": 4
+      },
+      "framesWithLabel": {
+        "person": 3
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 4
+        }
+      },
+      "sampleObjectBoxes": [],
+      "actualCPUQwenResponses": 0,
+      "detectorStageMedianMs": 1791.6,
+      "tpuRequestRoundTripMedianMs": 213.8,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 543.3,
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1": 545.9
+      },
+      "endToEndJobWorkMs": 38789.44862500066,
+      "eventRuleCounts": {},
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "b0bfbaa050c34383bdadb498776672e9",
+      "sampleId": "upload_b0bfbaa050c34383bdadb498776672e9",
+      "task": "omnifall_v2",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "50b1c82667195fb819db588ae821cdf14a1a4d790e53e6f6d8a37448710b8c64"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "9360ad826b4c965307f1a9c0b15ef9515e32d5005b71e023807f60dcf5da8180",
+      "rawFrameReceiptsSHA256": "50a48b375403800bf9d4dc90ae8db713b41c2269f20d0980585a32cded37e2cd",
+      "decodedFrames": 180,
+      "detectorFrames": 6,
+      "validatedTPURequests": 6,
+      "validatedTPURequestIDs": [
+        "01e49d05f1544e6c9fa472e1dfe80ad6",
+        "155844fe847943e78ea8fff51fde8fcb",
+        "5a4ecc88765e4fb1a4a8fdee12613128",
+        "305a2e6953674b0ca57c76ca7a897857",
+        "3e87c8095e6048e18dcc9e0832c3077f",
+        "62809e3feb174ef4a7a2e57696b4b627"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "cigarette",
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434",
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1"
+      ],
+      "classifierHeadExecutions": 4,
+      "classifierHeadSHA256": "3605faa6a412c9fef93610d73d30eeb21883202f4cf148a94675bc2f622ec967",
+      "objectObservations": {
+        "person": 5
+      },
+      "framesWithLabel": {
+        "person": 4
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 5
+        }
+      },
+      "sampleObjectBoxes": [],
+      "actualCPUQwenResponses": 2,
+      "detectorStageMedianMs": 3571.4,
+      "tpuRequestRoundTripMedianMs": 565.1,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 822.6,
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1": 819.9
+      },
+      "endToEndJobWorkMs": 87059.95566601632,
+      "eventRuleCounts": {
+        "inspection": 2
+      },
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "bc58b36b6d9548a08671d73f4a9d7414",
+      "sampleId": "pexels-phone-group-3252019",
+      "task": "phone_use",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "b1bb6b6aec8e7afb6f7196a6f8e8e53c2ecd7ede40fdfd234e632f26e2fcdb94"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "16bc746ff32ca53ac268165d187abf519e1772f15e0d950f1415ebb46e661370",
+      "rawFrameReceiptsSHA256": "1fb6750a70c426231acb6949005ad4b72ece7007bae693b20cab734751927d2e",
+      "decodedFrames": 150,
+      "detectorFrames": 6,
+      "validatedTPURequests": 6,
+      "validatedTPURequestIDs": [
+        "a48924d31a6c46638e9d955303552551",
+        "1799e48590e04c1ba0268e72ec6f7eb3",
+        "d4365a384ba9432990c7071bb8a2cf29",
+        "8d5451662eca4feca08c57b6d02eb9e0",
+        "939bb61613114653959a63cc3dfa7cd5",
+        "2f94ee891d524603ad97da56b8dc792f"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434"
+      ],
+      "classifierHeadExecutions": 0,
+      "classifierHeadSHA256": null,
+      "objectObservations": {
+        "person": 32,
+        "phone": 6
+      },
+      "framesWithLabel": {
+        "person": 6,
+        "phone": 6
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 32,
+          "phone": 6
+        }
+      },
+      "sampleObjectBoxes": [
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 0.0,
+          "label": "phone",
+          "score": 0.5549415946006775,
+          "xyxy": [
+            1752.665771484375,
+            321.3099365234375,
+            1920.0,
+            494.0991516113281
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 1.0,
+          "label": "phone",
+          "score": 0.4687231779098511,
+          "xyxy": [
+            1661.2164306640625,
+            321.6659851074219,
+            1844.7503051757812,
+            473.62347412109375
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 2.0,
+          "label": "phone",
+          "score": 0.6211302876472473,
+          "xyxy": [
+            1342.763671875,
+            326.00860595703125,
+            1602.979248046875,
+            498.3446350097656
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 3.0,
+          "label": "phone",
+          "score": 0.6508496403694153,
+          "xyxy": [
+            1027.2261962890625,
+            357.81939697265625,
+            1283.8287353515625,
+            543.5064697265625
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 4.0,
+          "label": "phone",
+          "score": 0.620481014251709,
+          "xyxy": [
+            626.0411376953125,
+            325.2472229003906,
+            895.570556640625,
+            537.6275634765625
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 5.0,
+          "label": "phone",
+          "score": 0.5966048240661621,
+          "xyxy": [
+            88.95167541503906,
+            322.6611022949219,
+            416.4712829589844,
+            596.27197265625
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        }
+      ],
+      "actualCPUQwenResponses": 2,
+      "detectorStageMedianMs": 7448.5,
+      "tpuRequestRoundTripMedianMs": 166.1,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 5762.6
+      },
+      "endToEndJobWorkMs": 104310.74320798507,
+      "eventRuleCounts": {
+        "inspection": 2
+      },
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "c514d090e76d44d3b00a0acc261a0b9b",
+      "sampleId": "pexels-phone-office-7253095",
+      "task": "phone_objects",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "b6d799a94be5990a812436dd3b089ef713dd70591a5ed2eea6e701057fee7ea7"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "c9fba6e838270834a98cee13734e918e4db81064d207dcd0c7de9f4c7d993216",
+      "rawFrameReceiptsSHA256": "e6e232255645148379b5beb94483a81ee8071494dedcd979f53fbc11ef0c8c7c",
+      "decodedFrames": 150,
+      "detectorFrames": 6,
+      "validatedTPURequests": 6,
+      "validatedTPURequestIDs": [
+        "64caba90ec094261940d661d8f178640",
+        "cb718f6d6e0640b2a499ae7b49823754",
+        "e4078566ce1f48908bc9eeaeeddefe67",
+        "ef8707037fa94cb980a43b91fe70897f",
+        "d89179c07501487b9805d724a3500c73",
+        "80aa9bb3376a46168bf169ad9689e649"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "cigarette",
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599",
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434"
+      ],
+      "classifierHeadExecutions": 0,
+      "classifierHeadSHA256": null,
+      "objectObservations": {
+        "person": 24,
+        "phone": 6
+      },
+      "framesWithLabel": {
+        "person": 6,
+        "phone": 6
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 24,
+          "phone": 6
+        }
+      },
+      "sampleObjectBoxes": [
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 0.0,
+          "label": "phone",
+          "score": 0.6349837183952332,
+          "xyxy": [
+            764.0166625976562,
+            394.6759948730469,
+            837.1546325683594,
+            487.02069091796875
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 1.0,
+          "label": "phone",
+          "score": 0.7371411323547363,
+          "xyxy": [
+            721.8682708740234,
+            427.59906005859375,
+            793.2265472412109,
+            507.89068603515625
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 2.0,
+          "label": "phone",
+          "score": 0.6419159173965454,
+          "xyxy": [
+            731.4606018066406,
+            436.9166564941406,
+            800.111572265625,
+            521.2088623046875
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 3.0,
+          "label": "phone",
+          "score": 0.669282078742981,
+          "xyxy": [
+            717.8477783203125,
+            422.74383544921875,
+            787.8294067382812,
+            516.8402709960938
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 4.0,
+          "label": "phone",
+          "score": 0.7194086313247681,
+          "xyxy": [
+            712.2125015258789,
+            432.5927429199219,
+            788.1300659179688,
+            526.8230285644531
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 5.0,
+          "label": "phone",
+          "score": 0.7493104934692383,
+          "xyxy": [
+            701.6589965820312,
+            430.3350524902344,
+            781.2109985351562,
+            527.2168579101562
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        }
+      ],
+      "actualCPUQwenResponses": 3,
+      "detectorStageMedianMs": 12135.6,
+      "tpuRequestRoundTripMedianMs": 182.9,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 2709.0,
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599": 8092.6
+      },
+      "endToEndJobWorkMs": 171214.6396249882,
+      "eventRuleCounts": {
+        "phone_present": 1,
+        "inspection": 2
+      },
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "db667f1dd20940f2aaa021e301049c3b",
+      "sampleId": "upload_b0bfbaa050c34383bdadb498776672e9",
+      "task": "omnifall_v2",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "50b1c82667195fb819db588ae821cdf14a1a4d790e53e6f6d8a37448710b8c64"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "35d5014fdc56663556007575b706f8feccb6395e0a73888b2b270e44bb23e83a",
+      "rawFrameReceiptsSHA256": "bbdf1d61b682c24e39dd94d957c8c42d4ba8763a59a619ada1d740a581419fee",
+      "decodedFrames": 180,
+      "detectorFrames": 6,
+      "validatedTPURequests": 6,
+      "validatedTPURequestIDs": [
+        "40068aeef7854aae9456999a3212507b",
+        "25e96dc89ea240b4ae1d9d0dee483076",
+        "a79085a5bc424267962fe751974b3b26",
+        "41a86c2523b5427fa7b852bf57ef1378",
+        "f490e5b040914acda4cd8c2bb939abaf",
+        "a46dad6af73c492d8223aa59a991660c"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "cigarette",
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434",
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1"
+      ],
+      "classifierHeadExecutions": 4,
+      "classifierHeadSHA256": "3605faa6a412c9fef93610d73d30eeb21883202f4cf148a94675bc2f622ec967",
+      "objectObservations": {
+        "person": 5
+      },
+      "framesWithLabel": {
+        "person": 4
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 5
+        }
+      },
+      "sampleObjectBoxes": [],
+      "actualCPUQwenResponses": 2,
+      "detectorStageMedianMs": 2290.1,
+      "tpuRequestRoundTripMedianMs": 174.3,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 533.4,
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1": 602.4
+      },
+      "endToEndJobWorkMs": 65404.4785410515,
+      "eventRuleCounts": {
+        "inspection": 2
+      },
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "00cfaafcba6148a1b6c34834fa13ce71",
+      "sampleId": "upload_00cfaafcba6148a1b6c34834fa13ce71",
+      "task": "phone_objects",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "b6d799a94be5990a812436dd3b089ef713dd70591a5ed2eea6e701057fee7ea7"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "159e351e5867d4c75cb5703ba0f8ad572b13217567ddce6c01ff76d654fdcc94",
+      "rawFrameReceiptsSHA256": "0f55421afb9c745f619a01e094925c2e54e712c035ef975f1c8f5d1f0a7d9496",
+      "decodedFrames": 150,
+      "detectorFrames": 6,
+      "validatedTPURequests": 6,
+      "validatedTPURequestIDs": [
+        "9b05852512db4bd69a7b5153e22061dc",
+        "41c6705e48c341a7852a78e7510b1130",
+        "4dd77cb33ae94cb1b09cc1ed8c27e6ea",
+        "73720c42d5d14cbf942f00b2882a95c5",
+        "0c191342def845cd83cc7ff9c152d12e",
+        "4d822ae64f9b473c821b3913fbf4d24c"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434"
+      ],
+      "classifierHeadExecutions": 0,
+      "classifierHeadSHA256": null,
+      "objectObservations": {
+        "person": 23,
+        "phone": 6
+      },
+      "framesWithLabel": {
+        "person": 6,
+        "phone": 6
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 23,
+          "phone": 6
+        }
+      },
+      "sampleObjectBoxes": [
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 0.0,
+          "label": "phone",
+          "score": 0.6349837183952332,
+          "xyxy": [
+            764.0166625976562,
+            394.6759948730469,
+            837.1546325683594,
+            487.02069091796875
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 1.0,
+          "label": "phone",
+          "score": 0.7371411323547363,
+          "xyxy": [
+            721.8682708740234,
+            427.59906005859375,
+            793.2265472412109,
+            507.89068603515625
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 2.0,
+          "label": "phone",
+          "score": 0.6419159173965454,
+          "xyxy": [
+            731.4606018066406,
+            436.9166564941406,
+            800.111572265625,
+            521.2088623046875
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 3.0,
+          "label": "phone",
+          "score": 0.669282078742981,
+          "xyxy": [
+            717.8477783203125,
+            422.74383544921875,
+            787.8294067382812,
+            516.8402709960938
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 4.0,
+          "label": "phone",
+          "score": 0.7194086313247681,
+          "xyxy": [
+            712.2125015258789,
+            432.5927429199219,
+            788.1300659179688,
+            526.8230285644531
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 5.0,
+          "label": "phone",
+          "score": 0.7493104934692383,
+          "xyxy": [
+            701.6589965820312,
+            430.3350524902344,
+            781.2109985351562,
+            527.2168579101562
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        }
+      ],
+      "actualCPUQwenResponses": 0,
+      "detectorStageMedianMs": 2210.2,
+      "tpuRequestRoundTripMedianMs": 181.4,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 1831.7
+      },
+      "endToEndJobWorkMs": 51208.00445898203,
+      "eventRuleCounts": {
+        "phone_present": 1
+      },
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "17f66601a3c54783997fed1a81c4f913",
+      "sampleId": "pexels-smoking-group-7271829",
+      "task": "smoking",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "9c6d433da48e72e6ddda3f40cf1bc7bc1219823b31278b74fb59e7f994d9ac9b"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "830dc5a6d7e6e6246d413405cff5e0df50f5bf49b3885cbdf894745991c0d84a",
+      "rawFrameReceiptsSHA256": "d284565fae87f1103dac2a05ccaa0559084c3121f057b30b4380dbd82cbaf29f",
+      "decodedFrames": 150,
+      "detectorFrames": 6,
+      "validatedTPURequests": 6,
+      "validatedTPURequestIDs": [
+        "d292cd99a82046e28e460c4cc99d3293",
+        "8764005def314d33948af833f42c42d0",
+        "2c316edd6b6545289d0b0efb1dc3afca",
+        "11ba8751652d492ba9e36a66bc12c80b",
+        "8ff0daba12664e5bbab2ee9732e113cf",
+        "22d4a06b4d3c4c228e79a2d1b394f3e4"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "cigarette"
+      ],
+      "cpuAttributeModelSHA256": [
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599"
+      ],
+      "classifierHeadExecutions": 0,
+      "classifierHeadSHA256": null,
+      "objectObservations": {
+        "person": 24,
+        "cigarette": 4
+      },
+      "framesWithLabel": {
+        "cigarette": 4,
+        "person": 6
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 24,
+          "cigarette": 4
+        }
+      },
+      "sampleObjectBoxes": [
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 0.0,
+          "label": "cigarette",
+          "score": 0.8975874185562134,
+          "xyxy": [
+            131.16236877441406,
+            866.2357788085938,
+            265.78076171875,
+            929.4013671875
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 1.0,
+          "label": "cigarette",
+          "score": 0.8855065107345581,
+          "xyxy": [
+            156.55694580078125,
+            881.5723876953125,
+            311.4726257324219,
+            937.2604370117188
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 2.0,
+          "label": "cigarette",
+          "score": 0.8767973780632019,
+          "xyxy": [
+            211.671142578125,
+            919.7349853515625,
+            350.64056396484375,
+            979.1563110351562
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 3.0,
+          "label": "cigarette",
+          "score": 0.8864654898643494,
+          "xyxy": [
+            245.3011932373047,
+            944.3160400390625,
+            384.6641845703125,
+            1004.7810668945312
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        }
+      ],
+      "actualCPUQwenResponses": 3,
+      "detectorStageMedianMs": 3975.6,
+      "tpuRequestRoundTripMedianMs": 180.9,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599": 2926.2
+      },
+      "endToEndJobWorkMs": 76364.31120795896,
+      "eventRuleCounts": {
+        "smoking_review": 1,
+        "inspection": 2
+      },
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "79018f7a9db146caacbac4dbe9faaddc",
+      "sampleId": "upload_79018f7a9db146caacbac4dbe9faaddc",
+      "task": "omnifall_v2",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "50b1c82667195fb819db588ae821cdf14a1a4d790e53e6f6d8a37448710b8c64"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "75c404ded4321501467e265617d15a1ca74b604addacbbffa33e186d15679e3e",
+      "rawFrameReceiptsSHA256": "55f74cdc175099bf7d2b81869dac579a4935f65b8da814b9f48797ba3d5e6741",
+      "decodedFrames": 180,
+      "detectorFrames": 6,
+      "validatedTPURequests": 6,
+      "validatedTPURequestIDs": [
+        "2b683b485b7c4e6b8de311462a95449c",
+        "4d66470d428e457f86bdb80d8463f12b",
+        "f4a4720bf438419881cb28c95d853ddd",
+        "247832ef094e495eb89203cd47f777fd",
+        "d96638bc4abc46b99bd3525cdec6956d",
+        "fba950e9a5584e409a326a811f93cad3"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "cigarette",
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599",
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434"
+      ],
+      "classifierHeadExecutions": 4,
+      "classifierHeadSHA256": "3605faa6a412c9fef93610d73d30eeb21883202f4cf148a94675bc2f622ec967",
+      "objectObservations": {
+        "person": 3,
+        "phone": 1
+      },
+      "framesWithLabel": {
+        "person": 3,
+        "phone": 1
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 3,
+          "phone": 1
+        }
+      },
+      "sampleObjectBoxes": [
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 1.0,
+          "label": "phone",
+          "score": 0.5260308384895325,
+          "xyxy": [
+            705.4449005126953,
+            10.617612838745117,
+            769.3254852294922,
+            82.73918914794922
+          ],
+          "frameSize": [
+            1280,
+            720
+          ]
+        }
+      ],
+      "actualCPUQwenResponses": 2,
+      "detectorStageMedianMs": 2722.7,
+      "tpuRequestRoundTripMedianMs": 177.4,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 767.7,
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599": 1645.5
+      },
+      "endToEndJobWorkMs": 69216.12979198107,
+      "eventRuleCounts": {
+        "inspection": 2
+      },
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    },
+    {
+      "jobId": "c3a27cf7b277404499e68c8a539f6c0f",
+      "sampleId": "pexels-phone-office-7253095",
+      "task": "phone_use",
+      "inputKind": "video",
+      "syntheticTime": false,
+      "originalImageSHA256": [],
+      "sourceSHA256": [
+        "b6d799a94be5990a812436dd3b089ef713dd70591a5ed2eea6e701057fee7ea7"
+      ],
+      "cameraCount": 1,
+      "configSHA256": "5ceab37a6b68a1017605650265a2b12132108864eca6fa7e3d6991c549f5ecf2",
+      "rawFrameReceiptsSHA256": "bdc75a14a517b2ebe06f2c318e52cf7d5f669be7b610a618cc12e60300ecde34",
+      "decodedFrames": 150,
+      "detectorFrames": 6,
+      "validatedTPURequests": 6,
+      "validatedTPURequestIDs": [
+        "29785906deda4f14ab66da8dd13d9670",
+        "16a37e7403c14afb9170745d598ec99e",
+        "018ea5a0710648faac54ee32c78720fb",
+        "927b1374a62e44899a3621eb6097fb48",
+        "0e24ce4af8e74b5883805b61813880f6",
+        "c95ff2853c8a4e0687dfdd0ac8532dca"
+      ],
+      "tpuWorkerStatusCode": 0,
+      "cpuAttributeDetectorsExecuted": [
+        "phone"
+      ],
+      "cpuAttributeModelSHA256": [
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434"
+      ],
+      "classifierHeadExecutions": 0,
+      "classifierHeadSHA256": null,
+      "objectObservations": {
+        "person": 23,
+        "phone": 6
+      },
+      "framesWithLabel": {
+        "person": 6,
+        "phone": 6
+      },
+      "perCameraObjectObservations": {
+        "user_camera_01": {
+          "person": 23,
+          "phone": 6
+        }
+      },
+      "sampleObjectBoxes": [
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 0.0,
+          "label": "phone",
+          "score": 0.6349837183952332,
+          "xyxy": [
+            764.0166625976562,
+            394.6759948730469,
+            837.1546325683594,
+            487.02069091796875
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 1.0,
+          "label": "phone",
+          "score": 0.7371411323547363,
+          "xyxy": [
+            721.8682708740234,
+            427.59906005859375,
+            793.2265472412109,
+            507.89068603515625
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 2.0,
+          "label": "phone",
+          "score": 0.6419159173965454,
+          "xyxy": [
+            731.4606018066406,
+            436.9166564941406,
+            800.111572265625,
+            521.2088623046875
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 3.0,
+          "label": "phone",
+          "score": 0.669282078742981,
+          "xyxy": [
+            717.8477783203125,
+            422.74383544921875,
+            787.8294067382812,
+            516.8402709960938
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 4.0,
+          "label": "phone",
+          "score": 0.7194086313247681,
+          "xyxy": [
+            712.2125015258789,
+            432.5927429199219,
+            788.1300659179688,
+            526.8230285644531
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "camera": "user_camera_01",
+          "timestampSeconds": 5.0,
+          "label": "phone",
+          "score": 0.7493104934692383,
+          "xyxy": [
+            701.6589965820312,
+            430.3350524902344,
+            781.2109985351562,
+            527.2168579101562
+          ],
+          "frameSize": [
+            1920,
+            1080
+          ]
+        }
+      ],
+      "actualCPUQwenResponses": 3,
+      "detectorStageMedianMs": 3847.7,
+      "tpuRequestRoundTripMedianMs": 205.2,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 2456.6
+      },
+      "endToEndJobWorkMs": 76402.9548339895,
+      "eventRuleCounts": {
+        "phone_use_review": 1,
+        "inspection": 2
+      },
+      "zonesApplied": false,
+      "completed": true,
+      "replayFallback": false
+    }
+  ],
+  "accuracyBenchmarkPerformed": false,
+  "scope": "Historical and current engineering executions. Model/config hashes distinguish revisions. Observed boxes are model outputs, not ground-truth annotations or confirmed violations."
+}

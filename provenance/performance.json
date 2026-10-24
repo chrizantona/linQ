@@ -1,0 +1,367 @@
+{
+  "units": "milliseconds",
+  "measurementBoundary": "TPU request round trip and CPU detector stage are measured by monotonic clocks on LinQ. End-to-end job work includes orchestration, model stages, rendering and artifact collection; it is not inference FPS or a live-camera SLA.",
+  "jobs": [
+    {
+      "jobId": "20e951749f804c6f96f15088f6383c33",
+      "task": "phone_use",
+      "cameraCount": 1,
+      "detectorFrames": 6,
+      "detectorStageMedianMs": 3074.3,
+      "tpuRequestRoundTripMedianMs": 180.1,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 2246.6
+      },
+      "endToEndJobWorkMs": 80447.25775002735
+    },
+    {
+      "jobId": "290a36dd8e1d4d19adc713940c874111",
+      "task": "smoking",
+      "cameraCount": 1,
+      "detectorFrames": 6,
+      "detectorStageMedianMs": 3365.0,
+      "tpuRequestRoundTripMedianMs": 187.8,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599": 2577.4
+      },
+      "endToEndJobWorkMs": 79258.17333400482
+    },
+    {
+      "jobId": "37c40c81a84347e7bbeb4cce78fb8ebc",
+      "task": "phone_objects",
+      "cameraCount": 2,
+      "detectorFrames": 12,
+      "detectorStageMedianMs": 2814.0,
+      "tpuRequestRoundTripMedianMs": 178.1,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 2352.5
+      },
+      "endToEndJobWorkMs": 110202.3186670267
+    },
+    {
+      "jobId": "3c04d241ab9a4ded91fa894f09fb0a56",
+      "task": "phone_objects",
+      "cameraCount": 1,
+      "detectorFrames": 3,
+      "detectorStageMedianMs": 4346.0,
+      "tpuRequestRoundTripMedianMs": 215.1,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 2800.1
+      },
+      "endToEndJobWorkMs": 54675.01199996332
+    },
+    {
+      "jobId": "6ba1408a8f5b404f83d463a88c6151de",
+      "task": "omnifall_v2",
+      "cameraCount": 1,
+      "detectorFrames": 6,
+      "detectorStageMedianMs": 2648.4,
+      "tpuRequestRoundTripMedianMs": 170.8,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 778.3,
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599": 1566.1
+      },
+      "endToEndJobWorkMs": 72979.77379197255
+    },
+    {
+      "jobId": "83fe79aaccd840fc91ba2b180c294260",
+      "task": "phone_use",
+      "cameraCount": 1,
+      "detectorFrames": 6,
+      "detectorStageMedianMs": 8105.5,
+      "tpuRequestRoundTripMedianMs": 174.4,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 7350.4
+      },
+      "endToEndJobWorkMs": 119605.25975003839
+    },
+    {
+      "jobId": "a29f340a06d24081b2404e1d39521b25",
+      "task": "smoking",
+      "cameraCount": 1,
+      "detectorFrames": 6,
+      "detectorStageMedianMs": 5191.3,
+      "tpuRequestRoundTripMedianMs": 186.8,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599": 3822.6
+      },
+      "endToEndJobWorkMs": 124052.01845796546
+    },
+    {
+      "jobId": "be456270063e4a338ffaaf199d20e213",
+      "task": "phone_use",
+      "cameraCount": 1,
+      "detectorFrames": 6,
+      "detectorStageMedianMs": 3511.7,
+      "tpuRequestRoundTripMedianMs": 165.5,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 2035.6
+      },
+      "endToEndJobWorkMs": 75392.95520901214
+    },
+    {
+      "jobId": "125d7f150da4481ea772699fce7211ff",
+      "task": "harness_author",
+      "cameraCount": 1,
+      "detectorFrames": 3,
+      "detectorStageMedianMs": 1743.8,
+      "tpuRequestRoundTripMedianMs": 558.3,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 494.4,
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1": 573.3
+      },
+      "endToEndJobWorkMs": 18057.822709030006
+    },
+    {
+      "jobId": "1b6088fdb3ea417cb583501a17395bc0",
+      "task": "safelift",
+      "cameraCount": 1,
+      "detectorFrames": 4,
+      "detectorStageMedianMs": 1673.8,
+      "tpuRequestRoundTripMedianMs": 188.0,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 521.7,
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1": 527.3
+      },
+      "endToEndJobWorkMs": 37589.32824997464
+    },
+    {
+      "jobId": "2edb908598264581a94e154e541e4b3d",
+      "task": "phone_objects",
+      "cameraCount": 2,
+      "detectorFrames": 12,
+      "detectorStageMedianMs": 2524.7,
+      "tpuRequestRoundTripMedianMs": 169.4,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 2125.8
+      },
+      "endToEndJobWorkMs": 107593.75104203355
+    },
+    {
+      "jobId": "30a0550e4d4a48d58b1c8466b4f4c07c",
+      "task": "hmdb51_v2",
+      "cameraCount": 1,
+      "detectorFrames": 6,
+      "detectorStageMedianMs": 2974.3,
+      "tpuRequestRoundTripMedianMs": 186.3,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 694.4,
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1": 807.5
+      },
+      "endToEndJobWorkMs": 72680.75970798964
+    },
+    {
+      "jobId": "335e7c8c083e4d56820ddbbf527dad9f",
+      "task": "phone_use",
+      "cameraCount": 1,
+      "detectorFrames": 6,
+      "detectorStageMedianMs": 5327.1,
+      "tpuRequestRoundTripMedianMs": 203.7,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 3960.5
+      },
+      "endToEndJobWorkMs": 115635.59158303542
+    },
+    {
+      "jobId": "3af8ce396e9d4b869e808d02b2d5b6b4",
+      "task": "physicalai_v2",
+      "cameraCount": 1,
+      "detectorFrames": 4,
+      "detectorStageMedianMs": 1773.8,
+      "tpuRequestRoundTripMedianMs": 162.3,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 550.6,
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1": 547.8
+      },
+      "endToEndJobWorkMs": 38683.65741701564
+    },
+    {
+      "jobId": "3e0d942b5e504957bf6976c2046057e2",
+      "task": "smoking",
+      "cameraCount": 1,
+      "detectorFrames": 6,
+      "detectorStageMedianMs": 6073.5,
+      "tpuRequestRoundTripMedianMs": 198.0,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599": 4629.4
+      },
+      "endToEndJobWorkMs": 124251.23908300884
+    },
+    {
+      "jobId": "60b2561bb99248e7a95e8b55ed00509d",
+      "task": "hmdb51_v2",
+      "cameraCount": 1,
+      "detectorFrames": 4,
+      "detectorStageMedianMs": 1701.0,
+      "tpuRequestRoundTripMedianMs": 367.8,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 486.3,
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1": 523.5
+      },
+      "endToEndJobWorkMs": 30067.06483301241
+    },
+    {
+      "jobId": "6c795408e82b4c67863e4f27ff20e2d8",
+      "task": "phone_use",
+      "cameraCount": 1,
+      "detectorFrames": 6,
+      "detectorStageMedianMs": 6185.3,
+      "tpuRequestRoundTripMedianMs": 183.4,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 5407.3
+      },
+      "endToEndJobWorkMs": 95510.25024999399
+    },
+    {
+      "jobId": "6c9dfe4bb9cf4e84b22cd7df5c2fb591",
+      "task": "smoking",
+      "cameraCount": 1,
+      "detectorFrames": 6,
+      "detectorStageMedianMs": 5401.2,
+      "tpuRequestRoundTripMedianMs": 175.4,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599": 3696.2
+      },
+      "endToEndJobWorkMs": 102425.94570800429
+    },
+    {
+      "jobId": "7cc0995357e942c990a874504bd9c52c",
+      "task": "smoking",
+      "cameraCount": 1,
+      "detectorFrames": 6,
+      "detectorStageMedianMs": 4879.5,
+      "tpuRequestRoundTripMedianMs": 168.7,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599": 4092.8
+      },
+      "endToEndJobWorkMs": 122754.7425829689
+    },
+    {
+      "jobId": "89b51e3e31f04631a3743881ebb04f44",
+      "task": "phone_use",
+      "cameraCount": 1,
+      "detectorFrames": 6,
+      "detectorStageMedianMs": 3505.0,
+      "tpuRequestRoundTripMedianMs": 180.8,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 2222.4
+      },
+      "endToEndJobWorkMs": 80571.29891699878
+    },
+    {
+      "jobId": "99cf09204b6340cabe39fe7c9c39ee93",
+      "task": "synthsite",
+      "cameraCount": 1,
+      "detectorFrames": 4,
+      "detectorStageMedianMs": 1791.6,
+      "tpuRequestRoundTripMedianMs": 213.8,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 543.3,
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1": 545.9
+      },
+      "endToEndJobWorkMs": 38789.44862500066
+    },
+    {
+      "jobId": "b0bfbaa050c34383bdadb498776672e9",
+      "task": "omnifall_v2",
+      "cameraCount": 1,
+      "detectorFrames": 6,
+      "detectorStageMedianMs": 3571.4,
+      "tpuRequestRoundTripMedianMs": 565.1,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 822.6,
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1": 819.9
+      },
+      "endToEndJobWorkMs": 87059.95566601632
+    },
+    {
+      "jobId": "bc58b36b6d9548a08671d73f4a9d7414",
+      "task": "phone_use",
+      "cameraCount": 1,
+      "detectorFrames": 6,
+      "detectorStageMedianMs": 7448.5,
+      "tpuRequestRoundTripMedianMs": 166.1,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 5762.6
+      },
+      "endToEndJobWorkMs": 104310.74320798507
+    },
+    {
+      "jobId": "c514d090e76d44d3b00a0acc261a0b9b",
+      "task": "phone_objects",
+      "cameraCount": 1,
+      "detectorFrames": 6,
+      "detectorStageMedianMs": 12135.6,
+      "tpuRequestRoundTripMedianMs": 182.9,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 2709.0,
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599": 8092.6
+      },
+      "endToEndJobWorkMs": 171214.6396249882
+    },
+    {
+      "jobId": "db667f1dd20940f2aaa021e301049c3b",
+      "task": "omnifall_v2",
+      "cameraCount": 1,
+      "detectorFrames": 6,
+      "detectorStageMedianMs": 2290.1,
+      "tpuRequestRoundTripMedianMs": 174.3,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 533.4,
+        "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1": 602.4
+      },
+      "endToEndJobWorkMs": 65404.4785410515
+    },
+    {
+      "jobId": "00cfaafcba6148a1b6c34834fa13ce71",
+      "task": "phone_objects",
+      "cameraCount": 1,
+      "detectorFrames": 6,
+      "detectorStageMedianMs": 2210.2,
+      "tpuRequestRoundTripMedianMs": 181.4,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 1831.7
+      },
+      "endToEndJobWorkMs": 51208.00445898203
+    },
+    {
+      "jobId": "17f66601a3c54783997fed1a81c4f913",
+      "task": "smoking",
+      "cameraCount": 1,
+      "detectorFrames": 6,
+      "detectorStageMedianMs": 3975.6,
+      "tpuRequestRoundTripMedianMs": 180.9,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599": 2926.2
+      },
+      "endToEndJobWorkMs": 76364.31120795896
+    },
+    {
+      "jobId": "79018f7a9db146caacbac4dbe9faaddc",
+      "task": "omnifall_v2",
+      "cameraCount": 1,
+      "detectorFrames": 6,
+      "detectorStageMedianMs": 2722.7,
+      "tpuRequestRoundTripMedianMs": 177.4,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 767.7,
+        "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599": 1645.5
+      },
+      "endToEndJobWorkMs": 69216.12979198107
+    },
+    {
+      "jobId": "c3a27cf7b277404499e68c8a539f6c0f",
+      "task": "phone_use",
+      "cameraCount": 1,
+      "detectorFrames": 6,
+      "detectorStageMedianMs": 3847.7,
+      "tpuRequestRoundTripMedianMs": 205.2,
+      "cpuAttributeStageMedianMsBySHA256": {
+        "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434": 2456.6
+      },
+      "endToEndJobWorkMs": 76402.9548339895
+    }
+  ],
+  "realTimeSLAEstablished": false,
+  "hundredCameraCapacityTested": false
+}

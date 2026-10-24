@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "bundle": {
+    "filename": "linq-models-v2.tar.gz",
+    "bytes": 377969506,
+    "sha256": "02176a80a6a91e0b11b5c33c0318420c565f6e962f16049c82bcb1a09b9404ff",
+    "url": null
+  },
+  "files": [
+    {
+      "path": "models/cigarette.onnx",
+      "sha256": "eefc0a2dcf6ecde52c8b63998893b4ffdab34da306ff9d72291b0ac599020af1",
+      "bytes": 81516648
+    },
+    {
+      "path": "models/convnext/encoder.onnx",
+      "sha256": "338dc7cae17ccfb2f2f06939518fcfa5cc328003710bd3739e1821fdb1e623b6",
+      "bytes": 111364756
+    },
+    {
+      "path": "models/convnext/heads/harness_author.json",
+      "sha256": "9d0eb757adedb60ee2dd8a617706e3bf313f34977106870302a24e72198487ff",
+      "bytes": 60190
+    },
+    {
+      "path": "models/convnext/heads/hmdb51_v2.json",
+      "sha256": "8cdefff7088c87811bd382eb54f7638f49d75eb1d78cb6fc11c8c6db93fb00a4",
+      "bytes": 180664
+    },
+    {
+      "path": "models/convnext/heads/omnifall_v2.json",
+      "sha256": "3605faa6a412c9fef93610d73d30eeb21883202f4cf148a94675bc2f622ec967",
+      "bytes": 180284
+    },
+    {
+      "path": "models/convnext/heads/physicalai_v2.json",
+      "sha256": "ef1bddc3a7d5d09415142b105f7bb478cde0541a2a4ced6f836d3f86e0cad7a8",
+      "bytes": 180087
+    },
+    {
+      "path": "models/convnext/heads/safelift.json",
+      "sha256": "7ad926f59fb48a7e307a855d0d70b340293fcd73d284a700cb1d84bf5b156391",
+      "bytes": 120306
+    },
+    {
+      "path": "models/convnext/heads/synthsite.json",
+      "sha256": "e4bca4c8468b3762a510c82fa57a247b42c9b8542d5d63b81e5987bbd80dc1bd",
+      "bytes": 179985
+    },
+    {
+      "path": "models/convnext/manifest.json",
+      "sha256": "28fd954af71c258603021f7610273297eec787e953afb716c95fd43ee490407e",
+      "bytes": 6682
+    },
+    {
+      "path": "models/linq/rfdetr/report.json",
+      "sha256": "544fa6368bb1dca8d4a3b25a5d0d94c0e9d4be7f343998c83358c6d47cbfb6ff",
+      "bytes": 18055
+    },
+    {
+      "path": "models/linq/rfdetr/rfdetr_b1_o1_h1m.tpu",
+      "sha256": "5a9b3a1be163c031876539a8ecb7232e847e1bca0235a8184b344654b410a1e6",
+      "bytes": 25084156
+    },
+    {
+      "path": "models/phone.onnx",
+      "sha256": "d9286c7e5c9c20e897c8c9fac1a0b8b0e24e6cf6baeb1d273c313349779e5434",
+      "bytes": 81516652
+    },
+    {
+      "path": "models/cigarette_rfdetr.onnx",
+      "sha256": "9e5c7e06a035676c2f83edac1537991981e8161c4e7830b152b0c21fbf538599",
+      "bytes": 121567761,
+      "provenance": {
+        "format": "ONNX export",
+        "trainingDataset": "CigDet",
+        "trainedCheckpointSha256": "64270cd6b14eb2f3bdacf0c3d16490566c1728022a18afcb39fc2f84ed9d8a64",
+        "checkpointSource": "Overnight release asset from the source repository",
+        "modelWeightsLicense": "No separate model-weight redistribution grant is recorded; see THIRD_PARTY_NOTICES.md"
+      }
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/cutroy/mosprom_hack",
+    "revision": "09ecbd3",
+    "assets": {
+      "convnext.tar.gz": "96c8bcc607288d05591c582d9eb02d7d7b06109305cf9cded6b4b4fa17972318",
+      "attributes.tar.gz": "9755aac539b9d3c8ad46d4ce0639a2855f0ce1ac15226ec44cf248c278f00fec",
+      "detection-benchmark.zip": "5d65d82416b1c076a33b345f1ad5e1ef90e187ce8894db054e41c207deb663c5"
+    }
+  }
+}

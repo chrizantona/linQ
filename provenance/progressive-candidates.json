@@ -1,0 +1,156 @@
+{
+  "scope": "Actual candidate observations from a fresh source copy before each job completed. Source code and model hashes were checked separately; no recorded predictions were supplied as input.",
+  "observations": [
+    {
+      "jobId": "be456270063e4a338ffaaf199d20e213",
+      "sampleId": "pexels-phone-office-7253095",
+      "observedAtUTC": "2026-10-25T00:38:58.686151+00:00",
+      "status": "running",
+      "pipelineStage": "detecting",
+      "vlmPending": false,
+      "candidateEvents": [
+        {
+          "event_id": "538eb054340ef1eb18017a38",
+          "camera_id": "user_camera_01",
+          "rule_id": "phone_use_review",
+          "type": "phone_use_review",
+          "frame_index": 25,
+          "trigger_timestamp_s": 1.0,
+          "source_sha256": "b6d799a94be5990a812436dd3b089ef713dd70591a5ed2eea6e701057fee7ea7",
+          "state": "active",
+          "score": 0.7371411323547363,
+          "track_ids": [],
+          "vlm_status": "unknown",
+          "provisional": true
+        },
+        {
+          "event_id": "df915af527be82f0144048ad",
+          "camera_id": "user_camera_01",
+          "rule_id": "zone_pexels-phone-office-7253095",
+          "type": "zone_pexels-phone-office-7253095",
+          "frame_index": 25,
+          "trigger_timestamp_s": 1.0,
+          "source_sha256": "b6d799a94be5990a812436dd3b089ef713dd70591a5ed2eea6e701057fee7ea7",
+          "state": "active",
+          "score": 1.0,
+          "track_ids": [
+            1,
+            3
+          ],
+          "vlm_status": "not_requested_for_geometric_rule",
+          "provisional": true
+        }
+      ],
+      "journalEvents": [
+        {
+          "event_id": "538eb054340ef1eb18017a38",
+          "camera_id": "user_camera_01",
+          "rule_id": "phone_use_review",
+          "kind": "incident_candidate",
+          "event_trigger": "active_event",
+          "frame_index": 25,
+          "trigger_timestamp_s": 1.0,
+          "source_sha256": "b6d799a94be5990a812436dd3b089ef713dd70591a5ed2eea6e701057fee7ea7",
+          "state": "active",
+          "score": 0.7371411323547363,
+          "track_ids": [],
+          "vlm": {
+            "status": "unknown",
+            "actual_execution": false
+          },
+          "provisional": true,
+          "semantics": "Model candidate or inspection; operator review is separate",
+          "job_id": "be456270063e4a338ffaaf199d20e213",
+          "job_created_at": "2026-10-25T00:38:23.734374+00:00",
+          "sample_id": "pexels-phone-office-7253095",
+          "zone_id": "pexels-phone-office-7253095",
+          "zone_polygon": [
+            [
+              0.02,
+              0.02
+            ],
+            [
+              0.46,
+              0.02
+            ],
+            [
+              0.46,
+              0.99
+            ],
+            [
+              0.02,
+              0.99
+            ]
+          ],
+          "source_camera_id": "user_camera_01",
+          "input_kind": "video",
+          "synthetic_time": false,
+          "source_sha256s": [],
+          "type": "phone_use_review",
+          "review": null,
+          "operator_confirmed": null
+        }
+      ],
+      "actualFramesVisible": 5
+    },
+    {
+      "jobId": "83fe79aaccd840fc91ba2b180c294260",
+      "sampleId": "pexels-phone-group-3252019",
+      "observedAtUTC": "2026-10-25T00:40:04.693224+00:00",
+      "observedAfterSubmissionSeconds": 17.32,
+      "status": "running",
+      "pipelineStage": "detecting",
+      "vlmPending": true,
+      "candidateEvents": [
+        {
+          "event_id": "bf33de5e6bf247e575e89624",
+          "camera_id": "user_camera_01",
+          "rule_id": "phone_use_review",
+          "type": "phone_use_review",
+          "frame_index": 25,
+          "trigger_timestamp_s": 1.0,
+          "source_sha256": "b1bb6b6aec8e7afb6f7196a6f8e8e53c2ecd7ede40fdfd234e632f26e2fcdb94",
+          "state": "active",
+          "score": 0.4687231779098511,
+          "track_ids": [],
+          "vlm_status": "queued",
+          "provisional": true
+        }
+      ],
+      "journalEvents": [
+        {
+          "event_id": "bf33de5e6bf247e575e89624",
+          "camera_id": "user_camera_01",
+          "rule_id": "phone_use_review",
+          "kind": "incident_candidate",
+          "event_trigger": "active_event",
+          "frame_index": 25,
+          "trigger_timestamp_s": 1.0,
+          "source_sha256": "b1bb6b6aec8e7afb6f7196a6f8e8e53c2ecd7ede40fdfd234e632f26e2fcdb94",
+          "state": "active",
+          "score": 0.4687231779098511,
+          "track_ids": [],
+          "vlm": {
+            "status": "queued",
+            "actual_execution": false
+          },
+          "provisional": true,
+          "semantics": "Model candidate or inspection; operator review is separate",
+          "job_id": "83fe79aaccd840fc91ba2b180c294260",
+          "job_created_at": "2026-10-25T00:39:47.374315+00:00",
+          "sample_id": "pexels-phone-group-3252019",
+          "zone_id": null,
+          "zone_polygon": null,
+          "source_camera_id": null,
+          "input_kind": "video",
+          "synthetic_time": false,
+          "source_sha256s": [],
+          "type": "phone_use_review",
+          "review": null,
+          "operator_confirmed": null
+        }
+      ],
+      "actualFramesVisible": 2
+    }
+  ]
+}
